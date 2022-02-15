@@ -280,7 +280,7 @@ To fill the complete project with automated translation user can choose this opt
 
 Translator can use this option by the key Ctrl+Shift+F to find the content from translated text and replace it.
 Translator can replace the searched text from a single string or can replace the searched text from all the sentences in one go.
-![Find & Replace](./image/Find&Replace.png)
+![Find & Replace](./images/Find_and_Replace.png)
 
 ###### Complete
 
