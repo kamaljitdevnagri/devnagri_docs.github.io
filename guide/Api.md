@@ -80,6 +80,7 @@ Response
     }
 ]
 ```
+
 --------
 
 ## Get All Tags
@@ -137,6 +138,7 @@ Response
 ]
 
 ```
+
 ------
 
 ## Project related API's
@@ -166,6 +168,7 @@ Response:
 ]
 
 ```
+
 ---------
 
 ### Get Project Status
@@ -188,6 +191,7 @@ Response:
     "pendingWordsProgress": 0
 }
 ```
+
 ------
 
 ### Get orders in project
@@ -254,6 +258,7 @@ Request:
 > `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-languages`
 
 Response:
+
 ```json
 [
     {
@@ -290,6 +295,7 @@ Request: Url
 > `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-add-language`
 
 Parameters:
+
 ```
 json
 {
@@ -298,6 +304,7 @@ json
 ```
 
 Response:
+
 ```json
 {
     status : 200
@@ -311,6 +318,7 @@ Request:
 > `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-glossary`
 
 Response:
+
 ```json
 [
     {
@@ -328,10 +336,12 @@ Response:
 ```
 
 ### To get all files in project
+
 Request:
 > `POST: http://dev.devnagri.co.in/api/projects/{project_id}/order-files`
 
 Response:
+
 ```json
 {
     "current_page": 1,
@@ -375,4 +385,3 @@ Response:
 }
 
 ```
-
