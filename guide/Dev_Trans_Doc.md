@@ -23,7 +23,7 @@ Translator (Further, can be termed as “Translator”or “User”) can join th
 
 ### Password Recovery
 
-If user has forgotten (or want to reset)  the registered password, then using “Forgot Password” option given on login screen it can be renewed (or reset). Enter the registered Email ID, a reset password link will be emailed. Click on that link and enter new password. User will be notified on the successful change of the password. 
+If user has forgotten (or want to reset)  the registered password, then using “Forgot Password” option given on login screen it can be renewed (or reset). Enter the registered Email ID, a reset password link will be emailed. Click on that link and enter new password. User will be notified on the successful change of the password.
 
 ![Trans Signin](./images/Sign_in_trans.png)
 
@@ -71,8 +71,6 @@ Translator can start their job by clicking on **Translate** button
 6. Earnings: Using this option user can check all the updates for standing and paid amounts.
 
 ![Navigation Earning](./images/new_earnings.png)
-
-
 
 ### Edit Profile
 

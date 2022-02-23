@@ -10,10 +10,8 @@ module.exports = {
   ],
   serviceWorker: true,
   themeConfig: {
-    repo: 'FourtekIT/devnagri-docs',
-    editLinks: true,
     logo: '/logo-dark.png',
-    docsDir: 'docs',
+    docsDir: '/',
     nav: [
       {
         text: 'Home',
@@ -31,21 +29,22 @@ module.exports = {
           collapsable: false,
           children: [
             'user',
-            'glossary',
+            'Glossary',
+            'dota' ,
           ]
         },
         {
           title: 'Translator Guide',
           collapsable: false,
           children: [
-            'translator'
+            'Translator'
           ]
         },
         {
           title: 'Developer Guide',
           collapsable: false,
           children: [
-            'api'
+            'Api'
           ]
         }
       ]
