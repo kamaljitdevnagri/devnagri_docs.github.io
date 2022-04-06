@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         text: 'Guide',
-        link: '/guide/user.html',
+        link: '/guide/Client_Guide.html',
       },
     ],
     sidebar: {
@@ -28,9 +28,9 @@ module.exports = {
           title: 'User Guide',
           collapsable: false,
           children: [
-            'user',
+            'Client_Guide',
             'Glossary',
-            'dota' ,
+            'Dota' ,
           ]
         },
         {
