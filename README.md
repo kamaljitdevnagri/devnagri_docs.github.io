@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 actionText: Get Started →
-actionLink: /guide/user.html
+actionLink: /guide/Client_Guide.html
 features:
 - title: Smart Platform
   details: Our direct communication policy helps you and your team in saving hours of struggle while communicating among themselves.

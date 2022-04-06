@@ -9,9 +9,16 @@ module.exports = {
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
   serviceWorker: true,
+  plugins: [
+    '@vuepress/medium-zoom',
+    '@vuepress/back-to-top',
+    '@vuepress/active-header-links'
+  ],
   themeConfig: {
     logo: '/logo-dark.png',
     docsDir: '/',
+    searchPlaceholder: 'Search...',
+    smoothScroll: true,
     nav: [
       {
         text: 'Home',
@@ -26,7 +33,7 @@ module.exports = {
       '/guide/': [
         {
           title: 'User Guide',
-          collapsable: false,
+          collapsable: true,
           children: [
             'Client_Guide',
             'Glossary',
@@ -35,14 +42,14 @@ module.exports = {
         },
         {
           title: 'Translator Guide',
-          collapsable: false,
+          collapsable: true,
           children: [
             'Translator'
           ]
         },
         {
           title: 'Developer Guide',
-          collapsable: false,
+          collapsable: true,
           children: [
             'Api'
           ]
