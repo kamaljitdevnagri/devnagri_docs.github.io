@@ -37,7 +37,7 @@ module.exports = {
           children: [
             'Client_Guide',
             'Glossary',
-            'Dota' ,
+            'dota' ,
           ]
         },
         {
