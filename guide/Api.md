@@ -1,17 +1,17 @@
-# Devnagri API's
+# Devnagri Platform APIs
 
 ## Login API
 
-This Api enables client to login
+This API enables client to login
 
-> `POST : http://dev.devnagri.co.in/api/login`
+> `POST: https://app.devnagri.com/api/login`
 
 ### Request
 
 ```json
 {
-    email: 'test.client@devnagri.com',
-    password: '****'
+    "email": "test.client@devnagri.com",
+    "password": "****"
 }
 ```
 
@@ -19,45 +19,44 @@ This Api enables client to login
 
 ```json
 {
-    token: 'asdiasdoiasdubdebdsbdaysbduaysbduaysbd'
+    "token": "asdiasdoiasdubdebdsbdaysbduaysbduaysbd"
 }
 ```
 
-## Generate Api Token
+## Generate API Token
 
-> `POST http://dev.devnagri.co.in/api/key/validations`
+> `POST https://app.devnagri.com/api/key/validations`
 
 ### Request
 
 ```json
 {
-    client_id  : 'id-of-client',
-    client_secret: 'client-secret',
-    project_key: 'project-key'
+    "client_id": "id-of-client",
+    "client_secret": "client-secret",
+    "project_key": "project-key"
 }
 ```
 
 ### Response
 
 ```json
-    {
-        token : 'Your-token'
-    }
+{
+    "token": "Your-token"
+}
 ```
 
-------------------------
 Put this token in all headers while sending the request to devnagri.
 
 Example:
 
-```json
-    Accept: 'Application/json'
-    Authorization : 'bearer your-token-here'
+```txt
+Accept: 'Application/json'
+Authorization: 'bearer your-token-here'
 ```
 
-------
+------------------------
 
-## Get All Languages
+## Get all languages
 
 Get all languages that we are using
 
@@ -66,7 +65,6 @@ Get all languages that we are using
 Response
 
 ```json
-
 [
     {
         "name": "Hindi - हिंदी",
@@ -81,13 +79,13 @@ Response
 ]
 ```
 
---------
+------------------------
 
-## Get All Tags
+## Get all tags
 
 This api provides all tags that is being used in devnagri.
 
-> `POST: http://dev.devnagri.co.in/api/tags`
+> `POST: https://app.devnagri.com/api/tags`
 
 Response
 
@@ -139,16 +137,16 @@ Response
 
 ```
 
-------
+------------------------
 
-## Project related API's
+## Project related APIs
 
-### Get Available languages in project
+### Get available languages in project
 
-Get Available languages in project.
+Get available languages in project.
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/available-languages`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/available-languages`
 
 Response:
 
@@ -169,14 +167,14 @@ Response:
 
 ```
 
----------
+------------------------
 
-### Get Project Status
+### Get project status
 
-Get Status of project.
+Get status of project.
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-status`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/project-status`
 
 Response:
 
@@ -192,14 +190,14 @@ Response:
 }
 ```
 
-------
+------------------------
 
 ### Get orders in project
 
 List all the orders in project
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-orders`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/project-orders`
 
 Response:
 
@@ -255,7 +253,7 @@ Response:
 ### Get all languages in project
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-languages`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/project-languages`
 
 Response:
 
@@ -292,14 +290,13 @@ Response:
 ### Add new language in project
 
 Request: Url
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-add-language`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/project-add-language`
 
 Parameters:
 
-```
-json
+```json
 {
-    languages : 'id-of-language'
+    "languages": "id-of-language"
 }
 ```
 
@@ -307,15 +304,15 @@ Response:
 
 ```json
 {
-    status : 200
+    "status": 200
 }
 
 ```
 
-### To get All Glossaries in project
+### Get all glossaries in project
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-glossary`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/project-glossary`
 
 Response:
 
@@ -338,7 +335,7 @@ Response:
 ### To get all files in project
 
 Request:
-> `POST: http://dev.devnagri.co.in/api/projects/{project_id}/order-files`
+> `POST: https://app.devnagri.com/api/projects/{project_id}/order-files`
 
 Response:
 
@@ -370,7 +367,7 @@ Response:
             "orderType": "Hybrid",
             "fileInOrders": 1,
             "statusText": "available",
-            }
+        }
     ],
     "first_page_url": "/?page=1",
     "from": 1,
@@ -385,3 +382,51 @@ Response:
 }
 
 ```
+
+------------------------
+
+## JSON order API
+
+> `POST: https://app.devnagri.com/api/order/json`
+
+### Request
+
+```json
+{
+    "api_key": "SECRET_API_KEY_XXXXX",
+    "project_name": "My Sample Order",
+    "industry": "other",
+    "source_language": "en",
+    "target_language": [
+        "hi",
+        "bn"
+    ],
+    "data": [
+        {
+            "id": 1,
+            "OriginalText": "Hello World"
+        },
+        {
+            "id": 2,
+            "OriginalText": "How are you?"
+        }
+    ]
+}
+```
+
+### Response
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "message": "Order placed successfully.",
+    "order_id": "DEV00510"
+}
+```
+
+#### Notes
+
+1. This API is responsible to create order without platform interface using a secret API key.
+2. After getting success response from the API, the user can then login to the [platform](https://app.devnagri.com/client/orders), and see the order.
+3. Please find language code mapping [here](/guide/LanguageCodes.md)
