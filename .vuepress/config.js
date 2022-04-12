@@ -51,7 +51,8 @@ module.exports = {
           title: 'Developer Guide',
           collapsable: true,
           children: [
-            'Api'
+            'Api',
+            'LanguageCodes'
           ]
         }
       ]

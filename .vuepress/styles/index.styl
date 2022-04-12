@@ -2,8 +2,8 @@
   display: none;
 }
 
-.theme-default-content:not(.custom) {
-    max-width: 70%;
+.theme-default-content:not(.custom), .page-nav, .page-edit {
+    max-width: 70% !important;
 }
 
 .home .hero .action-button {
@@ -26,4 +26,13 @@ a.sidebar-link.active {
 
 .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
   border-bottom: 2px solid #4fbcf6 !important;
+}
+
+::selection {
+    color: #ffffff;
+    background: #3498db;
+}
+
+a {
+    color: #3498db;
 }
