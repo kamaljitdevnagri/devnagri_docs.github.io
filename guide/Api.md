@@ -385,7 +385,7 @@ Response:
 
 ------------------------
 
-## JSON order API
+## JSON order using API
 
 > `POST: https://app.devnagri.com/api/order/json`
 
@@ -429,4 +429,14 @@ Response:
 
 1. This API is responsible to create order without platform interface using a secret API key.
 2. After getting success response from the API, the user can then login to the [platform](https://app.devnagri.com/client/orders), and see the order.
-3. Please find language code mapping [here](/guide/LanguageCodes.md)
+
+### Request Parameters
+
+| Key        | Value | Description
+| ------------- |:-------------:|:-------------:|
+| api_key | SECRET_API_KEY_XXXXX | The key will be provided by the Devnagri and can be found at [Usage Details](https://app.devnagri.com/account/usage) |
+| project_name | My Sample Order | Name of the order |
+| industry | other | Type of industry/domain the order belongs to. [Ref.](Industries.md) |
+| source_language | en | Language of the order which needs to be translated **from**. This will be a single value. [Ref.](LanguageCodes.md) |
+| target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, contains more than one language. [Ref.](LanguageCodes.md) |
+| data | Your JSON data | A valid JSON object |
