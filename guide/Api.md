@@ -395,7 +395,7 @@ Response:
 {
     "api_key": "SECRET_API_KEY_XXXXX",
     "project_name": "My Sample Order",
-    "industry": "other",
+    "industry": "sports",
     "source_language": "en",
     "target_language": [
         "hi",
@@ -438,5 +438,5 @@ Response:
 | project_name | My Sample Order | Name of the order |
 | industry | other | Type of industry/domain the order belongs to. [Ref.](Industries.md) |
 | source_language | en | Language of the order which needs to be translated **from**. This will be a single value. [Ref.](LanguageCodes.md) |
-| target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, contains more than one language. [Ref.](LanguageCodes.md) |
+| target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contains more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
