@@ -52,7 +52,8 @@ module.exports = {
           collapsable: true,
           children: [
             'Api',
-            'LanguageCodes'
+            'LanguageCodes',
+            'Industries'
           ]
         }
       ]
