@@ -2,18 +2,20 @@
 
 This document contains the APIs related to the ASR, speech to text translation and text to speech translation.
 
-> **POST** `https://voice-alpha.devnagri.dev/gnani/gnani/speech-to-text`
+## Speech to text API
 
-## Request
+> **POST** `https://voice-alpha.devnagri.dev/api/audio/speech-to-text`
+
+### Request
 
 ```curl
-curl --location --request POST 'https://voice-alpha.devnagri.dev/gnani/gnani/speech-to-text' \
+curl --location --request POST 'https://voice-alpha.devnagri.dev/api/audio/speech-to-text' \
 --header 'accept: application/json, text/plain, */*' \
---form 'soundBlob=@"/D:/Work/Devnagri/audio/hindi.wav"' \
+--form 'soundBlob=@"/D:/Devnagri/audio/hindi.wav"' \
 --form 'lang="hi-IN"'
 ```
 
-## Response
+### Response
 
 ```json
 {
@@ -28,7 +30,7 @@ curl --location --request POST 'https://voice-alpha.devnagri.dev/gnani/gnani/spe
 
 This API is responsible to take audio file as input and return the text.
 
-### Request parameters
+#### Request parameters
 
 The request requires input in the form data
 
@@ -37,7 +39,7 @@ The request requires input in the form data
 | soundBlob | hindi.wav | This will be the actual audio file. Supported formats are `.wav` and `amr-wb` |
 | lang | hi-IN | language code of the audio file. |
 
-#### Languages codes with sample files
+##### Languages codes with sample files
 
 | Language        | Code | Sample File
 | ------------- |:-------------:|:-------------:|
