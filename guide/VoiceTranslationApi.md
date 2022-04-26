@@ -13,6 +13,7 @@ curl --location --request POST 'https://voice-alpha.devnagri.dev/api/audio/speec
 --header 'accept: application/json, text/plain, */*' \
 --form 'soundBlob=@"//Devnagri/audio/hindi.wav"' \
 --form 'lang="hi-IN"'
+--form 'hasFlag="1"'
 ```
 
 ### Response
@@ -23,7 +24,8 @@ curl --location --request POST 'https://voice-alpha.devnagri.dev/api/audio/speec
     "data": {
         "status": "success",
         "transcript": "एक एक पाँच आठ चार एक पाँच पाँच दस",
-        "transliterated_transcript": "ek ek paanch aath char ek paanch paanch das"
+        "transliterated_transcript": "ek ek paanch aath char ek paanch paanch das",
+        "flag": 0
     }
 }
 ```
@@ -34,10 +36,11 @@ This API is responsible to take audio file as input and return the text.
 
 The request requires input in the form data
 
-| Key        | Value | Description
-| ------------- |:-------------:|:-------------:|
-| soundBlob | hindi.wav | This will be the actual audio file. Supported formats are `.wav` and `.amr-wb` |
-| lang | hi-IN | language code of the audio file. |
+| Key | Is Required | Sample value | Description
+| ------------- |:-------------:|:-------------:|:-------------:|
+| soundBlob | Required | hindi.wav | This will be the actual audio file. Supported formats are `.wav` and `.amr-wb` |
+| lang | Required | hi-IN | language code of the audio file. |
+| hasFlag | Optional | 1 | If this is set to `1`, the API will check for the flagged words which is present in the response "transcript" and return with `flag` as `0`(does not contains flagged words) and `1`(contains flagged words) |
 
 ##### Languages codes with sample files
 
