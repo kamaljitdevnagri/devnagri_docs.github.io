@@ -1,6 +1,6 @@
 # Industries
 
-| Industry slug | Industry Name
+| Industry name | Industry slug
 | ------------- |:-------------:|
 | Aerospace |  aerospace |
 | Agriculture | agriculture |
