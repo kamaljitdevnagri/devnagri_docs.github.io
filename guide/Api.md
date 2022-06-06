@@ -453,7 +453,7 @@ This API is responsible for returning transliteration for the input sentence.
 curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 --form 'eng_text="Namaste Devnagri"' \
 --form 'dest_lang="hi"' \
---form 'key="ouTDKtNpMVJQefQrjLJiCDPRylTRkos7wwGqIZ2hLe65sBvEtw2"'
+--form 'key="recgdgstaDKtVpMIJQ"'
 ```
 
 ### Response
@@ -471,8 +471,51 @@ curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 
 The request requires input in the form data
 
-| Key | Is Required | Sample value | Description
-| ------------- |:-------------:|:-------------:|:-------------:|
-| eng_text | Required | Namaste Devnagri | Input text |
-| dest_lang | Required | hi | language code. [Ref](LanguageCodes.md). |
-| key | Required | recgdgstaDKtVpMIJQeVQrjEJiCKPRvivek777wwhLe65sBvEtw2 | Unique key assigned to user for the API usage |
+| Key | Sample value | Description |
+| -------------:|:-------------:|:-------------:|
+| eng_text | Namaste Devnagri | Input text |
+| dest_lang | hi | language code. [Ref](LanguageCodes.md). |
+| key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+
+## Reject Sentence API
+
+This API is responsible to reject the translation for the given sentences in an ongoing order.
+
+> `POST: https://app.devnagri.com/api/order/json/reject`
+
+### Request
+
+```json
+{
+  "api_key": "recgdgstaDKtVpMIJQ",
+  "order_code": "DEV04200",
+  "data": {
+      "hi": [
+        "I think that we may safely trust a good deal more than we do.",
+        "There's a world of good you could perform."
+      ],
+      "bn": [
+        "There's a world of good you could perform.",
+        "While he waited at the train station, Joe realized that the train was late."
+      ]
+  }
+}
+```
+
+### Response
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "message": "Order DEV04200 has been sent back for review."
+}
+```
+
+#### Request parameters
+
+| Key | Sample value | Description
+| -------------:|:-------------:|:-------------:|
+| api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+| order_code | DEV04200 | Order Code |
+| data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
