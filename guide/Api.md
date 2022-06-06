@@ -462,7 +462,7 @@ curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 {
     "success": true,
     "at": "2022-06-06 06:54:29.047379 +0000 UTC",
-    "input": "Hello Ji",
+    "input": "Namaste Devnagri",
     "result": "नमस्ते देवनागरी"
 }
 ```
@@ -474,5 +474,5 @@ The request requires input in the form data
 | Key | Is Required | Sample value | Description
 | ------------- |:-------------:|:-------------:|:-------------:|
 | eng_text | Required | Namaste Devnagri | Input text |
-| dest_lang | Required | hi | language code.(Currently supports only english to Hindi) |
-| key | Required | recgdgstaDKtVpMIJQeVQrjEJiCKPRvivek777wwhLe65sBvEtw2 | Key assigned to the user for the API usage |
+| dest_lang | Required | hi | language code. [Ref](LanguageCodes.md). |
+| key | Required | recgdgstaDKtVpMIJQeVQrjEJiCKPRvivek777wwhLe65sBvEtw2 | Unique key assigned to user for the API usage |
