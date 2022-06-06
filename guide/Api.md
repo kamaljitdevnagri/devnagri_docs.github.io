@@ -440,3 +440,39 @@ Response:
 | source_language | en | Language of the order which needs to be translated **from**. This will be a single value. [Ref.](LanguageCodes.md) |
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
+
+## Transliteration API
+
+This API is responsible for returning transliteration for the input sentence.
+
+> `POST: https://transliteration.devnagri.com/api/tl`
+
+### Request
+
+```cURL
+curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
+--form 'eng_text="Namaste Devnagri"' \
+--form 'dest_lang="hi"' \
+--form 'key="ouTDKtNpMVJQefQrjLJiCDPRylTRkos7wwGqIZ2hLe65sBvEtw2"'
+```
+
+### Response
+
+```json
+{
+    "success": true,
+    "at": "2022-06-06 06:54:29.047379 +0000 UTC",
+    "input": "Hello Ji",
+    "result": "नमस्ते देवनागरी"
+}
+```
+
+#### Request parameters
+
+The request requires input in the form data
+
+| Key | Is Required | Sample value | Description
+| ------------- |:-------------:|:-------------:|:-------------:|
+| eng_text | Required | Namaste Devnagri | Input text |
+| dest_lang | Required | hi | language code.(Currently supports only english to Hindi) |
+| key | Required | recgdgstaDKtVpMIJQeVQrjEJiCKPRvivek777wwhLe65sBvEtw2 | Key assigned to the user for the API usage |
