@@ -441,6 +441,41 @@ Response:
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
 
+## Translation API
+
+This API is responsible for returning translation for the input sentence.
+
+> `POST: https://app.devnagri.com/api/translateSentenceTest`
+
+### Request
+
+```cURL
+curl --location --request POST 'https://app.devnagri.com/api/translateSentenceTest' \
+--form 'key="recgdgstaDKtVpMIJQ"' \
+--form 'sentence="Hello Devnagri"' \
+--form 'src_lang="en"'
+--form 'dest_lang="hi"' \
+```
+
+### Response
+
+```json
+{
+    "translated_text": "हैलो देवनागरी"
+}
+```
+
+#### Request parameters
+
+The request requires input in the form data
+
+| Key | Sample value | Description |
+| -------------:|:-------------:|:-------------:|
+| key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+| sentence | Hello Devnagri | Input text to be translated |
+| src_lang | en | Source language code. [Ref](LanguageCodes.md). |
+| dest_lang | hi | Destination language code. [Ref](LanguageCodes.md). |
+
 ## Transliteration API
 
 This API is responsible for returning transliteration for the input sentence.
