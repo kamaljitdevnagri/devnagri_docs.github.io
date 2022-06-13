@@ -9,8 +9,9 @@ On the homepage of the website “www.devnagri.com” there is an option of “O
 ### Placing an order - Step 1
 
 In the order page there are few details that the user has to fill in order to get the content translated.
-
+![Homepage](./images/a5.png)
 ![Placing an Order - Step1](./images/zz.png)
+
 
 #### Enter Project Name
 
