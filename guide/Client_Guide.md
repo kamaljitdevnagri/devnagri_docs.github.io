@@ -10,47 +10,33 @@ On the homepage of the website “www.devnagri.com” there is an option of “O
 
 In the order page there are few details that the user has to fill in order to get the content translated.
 
-![Placing an Order - Step1](./images/Create_Order_Step1.png)
+![Placing an Order - Step1](./images/zz.png)
 
 #### Enter Project Name
 
 Choose a relevant project name for the translation order. This can relate to the company, date, or other factors with user could remember it in future
 
-![Project Name](./images/Enter_Project_Name.png)
+![Project Name](./images/Projectname.png)
 
 #### Select Pair of Languages
 
 There will be a combination of languages available for translation. User can select more than one language and can get translation in multiple languages in a single order. User will be given the choice where Source Language will be English and target language can be multiple.
 
-![Select Languages](./images/Select_Language.png)
+![Select Languages](./images/languagename.png)
 
 #### Select Industry
 
 User need to select the industry specification to which the content is related. It helps Devnagri AI to assist better. Also industry wise glossary feature is available in Devnagri which depends on this selection.
 
-![Select Industry](./images/Select_Industry.png)
+![Select Industry](./images/selectindustry.png)
 
 #### Add Content To Translate
 
 User has the choice to either upload files or type text the content. Multiple files  (Upto 10 files with maximum file size of 5Mb) can be uploaded at Devnagri in different formats. We accept 22 different file formats.
 
-![Upload Content](./images/Upload_File.png)
+![Upload Content](./images/uploadfile.png)
 
- User can select the option of “Type text” and insert the content directly if required. After the file or content gets accepted kindly select the Arrow button to progress on next step.
-
-![Type Text](./images/Type_Text.png)
-
-### Placing an Order - Step 2
-
-User need to fill the options under Project Brief after completing step 1 to get the order accepted at Devnagri.
-
-![Type Text](./images/Create_Order_Step2.png)
-
-#### Add Category
-
-Add a category to organise the order, if the user has multiple orders than the categorization will help in organizing them better.
-
-![Add Category](./images/Add_Category.png)
+#### Click on next button after uploading the file.
 
 #### Tone of Translation
 
@@ -72,7 +58,7 @@ User will get certified translators of the designated category. The accuracy rat
 Package Two
 User will get certified translators & reviewers of the designated category. The accuracy rate will remain 95%.
 
-![Choose Plan](./images/Service_Quality_Type.png)
+![Choose Plan](./images/package.png)
 
 ### Order Summary
 
@@ -127,7 +113,6 @@ The actual billable amount after applying coupon is shown for final billing. Use
 ### Signing Up
 
 User can [sign-up](https://app.devnagri.com/login), by filling the details required (such as Name, Company, Industry, Email ID, Mobile Number, Password) in the form given on the link. Once the complete details are filled, select “sign-up” option, a verification link will be emailed. Log in the registered email and click on the verification button to get account verified.
-User can also sign-up using his/her LinkedIn, Google Plus or GitHub ID.
 
 ![Client SignUp](./images/Sign_Up.png)
 
@@ -135,15 +120,12 @@ User can also sign-up using his/her LinkedIn, Google Plus or GitHub ID.
 
 1. User can [login devnagri](https://app.devnagri.com/login) by using credentials (EMail ID & password) made during the sign-up process.
 
-![Client Signin](./images/Login.png)
+![Client Signin](./images/userlogin.png)
 
-2. User can also login using his/her social media (Linkedin, Google Plus or GitHub) credentials.
 
-![Social Signin](./images/Login_Social.png)
+2. User can also login using “Magic Link” option, using it user shall enter the registered email ID in the given text box and a unique link shall be emailed on the same ID using which he/she can login directly.
 
-3. User can also login using “Magic Link” option, using it user shall enter the registered email ID in the given text box and a unique link shall be emailed on the same ID using which he/she can login directly.
-
-![Magic Signin](./images/Login_MagicLink.png)
+![Magic Signin](./images/magiclink.png)
 
 ### Password Recovery
 
@@ -154,12 +136,13 @@ If user has forgotten (or want to reset)  the registered password, then using [�
 ### Payment
 
 After signUp/SignIn user will be redirected to the payment gateway, where the amount for the order can be paid using different methods such as netbanking, debit card, credit card etc.
+![payemt](./images/payment.png)
 
 ### Adding Glossary
 
 This works in two ways, user can either add the words manually or can add a file with all the words to be added in glossary. The glossary at Devnagri is updated on the industry basis, it automatically gets embedded in all the orders from the same industry background of the user. On the navigation panel user will find the “Order” menu, select it, go to the “Glossary” tab. In “Add Glossary” option the user can choose between Manual &  Upload.
 
-![Glossary](./images/Glossary.png)
+![Glossary](./images/glossaryorder.png)
 
 ### Manual Glossary
 
@@ -189,6 +172,8 @@ iv. As soon as the file gets successfully uploaded select “Save” option.
 
 ### Order Status
 
+![orderstatus](./images/orderstatus.png)
+
 To check the order status user need to find the “order” menu in the navigation panel. On the landing page the order list will be available with all the details. The “Status” option will be showing the current status of the order. The different statuses can be:
 
 1. Processing:
@@ -216,6 +201,7 @@ After the client marks the order as completed the status is changed to “Comple
 User can archive the order completed or the order not required. User can use option from “Actions” tab
 
 ### Actions
+![action](./images/action.png)
 
 For the project statuses shown there are different actions that user can take, these are:
 
@@ -259,23 +245,23 @@ Information such as Billing Address, GSTIN are stored here,
 
 This tab shall blink whenever any new event happens with the project. For example; when the translator submit the project for review.
 
-![Notification](./images/Notifications.png)
+![Notification](./images/notificationbar.png)
 
 #### Orders
 
 Using this menu user can check out all the orders (current and previous) along with payment status.
 
-![Orders](./images/Order_Page.png)
+![Orders](./images/order1.png)
 
 #### Transactions
 
 It holds information about all the transactions made by user for the orders made.
 
-![Transactions](./images/Transactions.png)
+![Transactions](./images/tt1.png)
 
 ### Client Dashboard
 
-![Client Dashboard](./images/Dashboard.png)
+![Client Dashboard](./images/pp.png)
 
 #### Add Picture
 
@@ -287,7 +273,7 @@ User can add a profile photo for display purpose using this option. User can upl
 
 This is a premium service wallet that will hold the balance amount for the user interested in getting a manual translator/Proof-reader for the project.
 
-![Translation Credits](./images/Translation_Credit.png)
+![Translation Credits](./images/tt.png)
 
 #### Buy Credits
 
