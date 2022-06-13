@@ -1,19 +1,19 @@
 # DOTA
 
-**D**evnagri **O**n **T**he **A**ir is a platform that translates your website on the fly.
+Devnagri On the Air is a platform that translates your website on the fly.
 
 The platform enables your website to go multilingual in minutes, without any hassle. You don't need to change anything at the code and infrastructure level. It's just a plug and play solution to go multilingual.
 
 Devnagri On The Air makes your multilingual journey quick and easy.
 
-![air](./images/air.png)
+![air](./images/a5.png)
 
 ## User Login
 
 If user has a existing account click on already login.
 If new user click on not login button.
 
-![dotalogin](./images/dotalogin.png)
+![dotalogin](./images/a6.png)
 
 ## Sign-in page
 
@@ -25,35 +25,35 @@ User has to provide the login id and password and click on sign-in.
 
 Users orders will reflect on the orders page.
 
-![ordersdota](./images/ordersdota.png)
+![ordersdota](./images/a8.png)
 
 ## Click on domains
 
 If User wants to translate his whole website he has to click on the domains button.
 
-![domains](./images/dotadomains.png)
+![domains](./images/a7.png)
 
 ## Click on Add domain
 
 User has to click on the add domain.
 
-![adddomian](./images/Adddomain.png)
+![adddomian](./images/a9.png)
 
 ## New order on Dota
 
 User has to click on orders and enter the URL of his website/Domain for translate.
 
-![url](./images/doturl.png)
+![url](./images/a10.png)
 
 ## Package/Plans
 
 User has to select the package/plans and click on the place order.
 
-![price](./images/placeorderdota.png)
+![price](./images/a11.png)
 
 Upon clicking on place order user has to select the plan details and update the project summary details.
 
-![price1](./images/abcd.png)
+![price1](./images/newordersummary.png)
 
 ## Payment
 
@@ -61,7 +61,7 @@ user will redirected to the payment page and choose any payment method and add t
 ![pyment](./images/payment.png)
 
 Order gets confirmed and page will navigate to the Add Url page.
-![l](./images/urldota.png)
+![l](./images/a1.png)
 
 ## Order Confirmation
 
@@ -73,19 +73,19 @@ If New user do not have any credits system will redirect to the payment page and
 
 After confirming the order all the URL's will the not download automatically user has to click on add url's.
 
-![urln](./images/nourldota.png)
+![urln](./images/a12.png)
 
 ## Add more URL's
 
 Upon clicking on the add URL's page will redirect to the next page
 
-![nourl](./images/add1moreurl.png)
+![nourl](./images/a2.png)
 
 ## URL sync again button
 
 Upon clicking on the Sync again button all the URL's will sync and will display on the screen.
 
-![sync](./images/sync.png)
+![sync](./images/a3.png)
 
 ## Translate button
 
@@ -126,7 +126,7 @@ User dash boards shows all the details of order.
 9. Pages views
 10. Word count
 
-![dashboard](./images/dotadashboard.png)
+![dashboard](./images/a4.png)
 
 ## Plan details
 
@@ -145,7 +145,7 @@ If all the URL's translated by system the progress will show 100% on the dashboa
 
 The word count shows how many words are in the URL.
 
-![wordcount](./images/dotawordcountdota.png)
+![wordcount](./images/a13.png)
 
 ## Translation type
 
@@ -161,13 +161,13 @@ As user want to translate URL him self by using proof read option.
 
 ## Premium translation
 
-![translator](./images/dotatranlator.png)
+![translator](./images/a14.png)
 
 ## Preview
 
 User can view the translated URL of the particular language.
 
-![preview](./images/dotapreview.png)
+![preview](./images/a15.png)
 
 ## Proof Read/Translate
 
@@ -177,25 +177,17 @@ Proof read shows  all the sentences of the URL along with the translation .
 
 User can also do modification of the sentences.
 
-![pf](./images/proofreadtranslate.png)
+![pf](./images/a16.png)
 
 ![proofread](./images/Toggledota.png)
 
-## Sync
 
-If any updates/changes in the URL or progress is not 100 per.then user can use sync button.
+## Published
 
-It will scrap and update the content of the URL again.
+Only published links are shown as translated.
+We dont translate unpublish URLs.
 
-![Sync](./images/dotasync.png)
-
-## Active/Inactive
-
-Active  If user click on the active button the user will see translated page will be shown.
-
-Inactive  If user click on the inactive button the user will see the URL always in  source language (English).
-
-![ative](./images/DotaAactiveinactive.png)
+![ative](./images/a17.png)
 
 ## Search tab
 
@@ -213,6 +205,12 @@ User can search any URL in the search button.
 
 ![morelanguage1](./images/Addmorelanguage1.png)
 
+
+## Delete tab
+
+We can delete the URL's by using the delete button.
+
+![RR](./images/a18.png)
 ## Change language dropdown filter button
 
 User can see all the progress of the translated URL's
@@ -231,13 +229,13 @@ If system did not crawl any url due to some technical issue or user want only on
 
 User can use the filter button to search for Active/Inactive , Translation type, URls.
 
-![filter](./images/Dotafilter.png)
+![filter](./images/a19.png)
 
 ## Pageview
 
 User can see no.of visitors in the page view.
 
-![pageview](./images/Dotapageview.png)
+![pageview](./images/a20.png)
 
 ## Total views
 
@@ -257,15 +255,14 @@ User can see all the Premium translation orders under the PT page
 
 Upon clicking the upgrade to PT user will redirect to the URLs page and select the URL upon making payment the URL will upgrade to PT.
 
-## Check the flow and update oe more image
 
 ![pt](./images/PT.png)
+![SS](./images/a23.png)
 
-![orderforPT](./images/DotaorderPT.png)
 
-![URlupgaretopt](./images/DOTAURLPT.png)
+![URlupgaretopt](./images/a21.png)
 
-![PTsearch](./images/DotaPTsecrch.png)
+
 
 ![upgradept](./images/DOTAMTTOPT.png)
 
@@ -374,11 +371,39 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 ![jumptosorting](./images/jump.png)
 
-## Publish
+## Publish Tab
 
-enable translation for the domain
+enable translation for the domain.
+## Language switcher 
+You can add the following script to your website to display the language switcher on your website.
 
-![publish](./images/pub.png)
+## Custom CSS
+You can add Custom CSS for Native Language Switcher Dropdown
+Recommendation: Please use combination of (right and bottom) or (left and bottom) and rest field is empty for better dropdown position.
+
+## Hreflang tags for Google indexing bots
+Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
+Note that with this method, you don't need to edit your sitemap.
+
+## Settings
+Language dropdown on your website
+Recommendation : if you are using custom dropdown, please disable both the options.
+
+## Enable Subdomain Redirect
+If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the cname succesfully.
+Recommended: if you are not using your default language dropdown.
+
+## Enable Language Dropdown UI
+This settings help you populate an automatic language dropdown on your proxy website.
+
+## Enable Static Content Website
+This settings for if your website has static content then enabling this would speed up the content localisation.
+
+## Subdomain
+You can active subdomains for language with the Cname.
+
+
+![publish](./images/a24.png)
 
 ## Rule
 
