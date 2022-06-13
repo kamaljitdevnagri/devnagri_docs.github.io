@@ -40,7 +40,7 @@ User has the choice to either upload files or type text the content. Multiple fi
 
 #### Tone of Translation
 
-Select the level of politeness to target the right audience and to get the correct translation as per the requirement.
+Select the level of politeness to target the right audience and to get the correct translation as per the requirements.
 
 ![Tone of Translation](./images/Tone_of_Translation.png)
 
