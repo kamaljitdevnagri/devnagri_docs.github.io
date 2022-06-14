@@ -554,3 +554,44 @@ This API is responsible to reject the translation for the given sentences in an 
 | api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 | order_code | DEV04200 | Order Code |
 | data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
+
+## Custom Response API
+
+This API is returns a custom response with source language and target language
+
+> `POST: https://app.devnagri.com/api/order/json-response`
+
+### Request
+
+```json
+{
+    "api_keys": "recgdgstaDKtVpMIJQ",
+    "order_id": "DEV04200"
+}
+```
+
+### Response
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "data": [
+        {
+            "id": "Thank you. Hi. I'd like to go to the Adelphi Hotel.",
+            "en": "धन्यवाद। हाय। मैं एडलफी होटल में जाना चाहता हूं।"
+        },
+        {
+            "id": "Excuse me. - I'm sorry. This is my cab.",
+            "en": "माफ कीजिएगा। -मैं माफी चाहता हूं। यह मेरी कैब है।"
+        }
+    ]
+}
+```
+
+#### Request parameters
+
+| Key | Sample value | Description
+| -------------:|:-------------:|:-------------:|
+| api_keys | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+| order_id | DEV04200 | Unique Order Code |
