@@ -480,7 +480,7 @@ The request requires input in the form data
 
 This API is responsible for returning transliteration for the input sentence.
 
-> `POST: https://transliteration.devnagri.com/api/tl`
+> `POST: https://app.devnagri.com/api/transliterate`
 
 ### Request
 
