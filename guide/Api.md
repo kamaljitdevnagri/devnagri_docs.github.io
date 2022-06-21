@@ -579,11 +579,11 @@ This API is returns a custom response with source language and target language
     "data": [
         {
             "id": "Thank you. Hi. I'd like to go to the Adelphi Hotel.",
-            "en": "धन्यवाद। हाय। मैं एडलफी होटल में जाना चाहता हूं।"
+            "hi": "धन्यवाद। हाय। मैं एडलफी होटल में जाना चाहता हूं।"
         },
         {
             "id": "Excuse me. - I'm sorry. This is my cab.",
-            "en": "माफ कीजिएगा। -मैं माफी चाहता हूं। यह मेरी कैब है।"
+            "hi": "माफ कीजिएगा। -मैं माफी चाहता हूं। यह मेरी कैब है।"
         }
     ]
 }
