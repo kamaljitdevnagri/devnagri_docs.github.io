@@ -138,7 +138,7 @@ Response
 ```
 
 ------------------------
-
+<!-- 
 ## Project related APIs
 
 ### Get available languages in project
@@ -383,7 +383,7 @@ Response:
 
 ```
 
-------------------------
+------------------------ -->
 
 ## JSON order using API
 
