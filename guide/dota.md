@@ -375,7 +375,11 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 enable translation for the domain.
 ## Language switcher 
-You can add the following script to your website to display the language switcher on your website.
+User can add the following script to your website to display the language switcher on your website.
+
+User needs to click on the copy button. JS script will be copied to the clipboard. You would need to put this JS code across your website (preferably in a GTM container).
+
+![jumptosorting](./images/jss.png)
 
 ## Custom CSS
 You can add Custom CSS for Native Language Switcher Dropdown
