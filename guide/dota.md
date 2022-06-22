@@ -379,7 +379,7 @@ User can add the following script to your website to display the language switch
 
 User needs to click on the copy button. JS script will be copied to the clipboard. You would need to put this JS code across your website (preferably in a GTM container).
 
-![jumptosorting](./images/jss.png)
+![jumptosorting](./images/copy.png)
 
 ## Custom CSS
 You can add Custom CSS for Native Language Switcher Dropdown
