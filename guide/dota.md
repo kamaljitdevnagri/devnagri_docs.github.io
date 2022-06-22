@@ -58,7 +58,7 @@ Upon clicking on place order user has to select the plan details and update the 
 ## Payment
 
 user will redirected to the payment page and choose any payment method and add the transactions and confirm the order.
-![pyment](./images/payment.png)
+![payment](./images/payment.png)
 
 Order gets confirmed and page will navigate to the Add Url page.
 ![l](./images/a1.png)
@@ -173,7 +173,7 @@ User can view the translated URL of the particular language.
 
 Click on proof read tab.
 
-Proof read shows  all the sentences of the URL along with the translation .
+Proof read shows  all the sentences of the URL along with the translation.
 
 User can also do modification of the sentences.
 
@@ -185,7 +185,7 @@ User can also do modification of the sentences.
 ## Published
 
 Only published links are shown as translated.
-We dont translate unpublish URLs.
+We don't translate unpublished URLs.
 
 ![ative](./images/a17.png)
 
@@ -371,11 +371,15 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 ![jumptosorting](./images/jump.png)
 
-## Publish Tab
+## Publish 
 
 enable translation for the domain.
 ## Language switcher 
-You can add the following script to your website to display the language switcher on your website.
+User can add the following script to your website to display the language switcher on your website.
+
+User needs to click on the copy button. JS script will be copied to the clipboard. You would need to put this JS code across your website (preferably in a GTM container).
+
+![jumptosorting](./images/copy.png)
 
 ## Custom CSS
 You can add Custom CSS for Native Language Switcher Dropdown
@@ -390,7 +394,7 @@ Language dropdown on your website
 Recommendation : if you are using custom dropdown, please disable both the options.
 
 ## Enable Subdomain Redirect
-If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the cname succesfully.
+If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the cname successfully.
 Recommended: if you are not using your default language dropdown.
 
 ## Enable Language Dropdown UI
