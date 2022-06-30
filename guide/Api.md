@@ -486,8 +486,9 @@ This API is responsible for returning transliteration for the input sentence.
 
 ```cURL
 curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
---form 'eng_text="Namaste Devnagri"' \
---form 'dest_lang="hi"' \
+--form 'input_text="नमस्ते"' \
+--form 'src_lang="hi"' \
+--form 'dest_lang="ml"' \
 --form 'key="recgdgstaDKtVpMIJQ"'
 ```
 
@@ -496,9 +497,9 @@ curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 ```json
 {
     "success": true,
-    "at": "2022-06-06 06:54:29.047379 +0000 UTC",
-    "input": "Namaste Devnagri",
-    "result": "नमस्ते देवनागरी"
+    "at": "2022-06-30 12:20:39.823671 +0000 UTC",
+    "input": "namaste",
+    "result": "നാമസ്റ് റ്"
 }
 ```
 
@@ -508,8 +509,9 @@ The request requires input in the form data
 
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
-| eng_text | Namaste Devnagri | Input text |
-| dest_lang | hi | language code. [Ref](LanguageCodes.md). |
+| input_text | नमस्ते | Input text |
+| src_lang | hi | language code. [Ref](LanguageCodes.md). |
+| dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 
 ## Reject Sentence API
