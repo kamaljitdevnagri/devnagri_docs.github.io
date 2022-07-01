@@ -31,6 +31,10 @@
 | Religion |  religion |
 | Retail |  retail |
 | Science |  science |
+| Mathematics |  mathematics |
+| Biology |  biology |
+| Chemistry |  chemistry |
+| Physics |  physics |
 | Sports |  sports |
 | Telecom |  telecom |
 | Travel/Tourism | traveltourism |
