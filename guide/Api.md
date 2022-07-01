@@ -567,7 +567,7 @@ This API is returns a custom response with source language and target language
 
 ```json
 {
-    "api_keys": "recgdgstaDKtVpMIJQ",
+    "api_key": "recgdgstaDKtVpMIJQ",
     "order_id": "DEV04200"
 }
 ```
@@ -595,5 +595,5 @@ This API is returns a custom response with source language and target language
 
 | Key | Sample value | Description
 | -------------:|:-------------:|:-------------:|
-| api_keys | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+| api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 | order_id | DEV04200 | Unique Order Code |
