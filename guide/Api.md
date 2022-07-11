@@ -511,6 +511,62 @@ The request requires input in the form data
 | -------------:|:-------------:|:-------------:|
 | input_text | नमस्ते | Input text |
 | src_lang | hi | language code. [Ref](LanguageCodes.md). |
+| dest_lang | bn | language code. [Ref](LanguageCodes.md). |
+| key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+
+## Transliteration Custom API
+
+This API is responsible for returning custom transliteration for the input file.
+Text between square brackets`[]` will only be transliterated and rest of them will be ignored.
+
+> `POST: https://app.devnagri.com/api/transliterate-custom`
+
+### Request
+
+```cURL
+curl --location --request POST 'https://app.devnagri.com/api/transliterate-custom' \
+--form 'file=@"/C:/Users/kumar/SampleLyrics.en.txt"' \
+--form 'src_lang="en"' \
+--form 'dest_lang="hi"' \
+--form 'key="recgdgstaDKtVpMIJQ"'
+```
+
+#### Source file content
+
+```txt
+Exclusive Upload for StarManch
+Aake Teri Baahon Mein
+Lyrics: Sameer
+
+[00:04.67]Song: Aake Teri Baahon Mein [End]
+[start][undefined][undefined]
+[00:07.18]Lyrics: Sameer [End]
+[start][undefined][undefined]
+[00:09.68]Music: Anand Milind [End]
+```
+
+### Response
+
+```txt
+Exclusive Upload for StarManch
+Aake Teri Baahon Mein
+Lyrics: Sameer
+
+[00:04.67] সং: আঁকে টেরি বাহন মেইন [End]
+[start][undefined][undefined]
+[00:07.18] লিরিক্স: সমীর [End]
+[start][undefined][undefined]
+[00:09.68] মিউজিক: আনন্দ মিলিন্দ [End]
+```
+
+#### Request parameters
+
+The request requires input in the form data
+
+| Key | Sample value | Description |
+| -------------:|:-------------:|:-------------:|
+| file | "/C:/Users/kumar/SampleLyrics.en.txt" [Ref](Api.md#source-file-content) | Source File |
+| src_lang | hi | language code. [Ref](LanguageCodes.md). |
 | dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 
