@@ -1,14 +1,13 @@
-## Login :
+# Login
 
 User needs to go to the Devangri home page.
 ![air](./images/a5.png)
 
-## User needs to click on the order online.
+## User needs to click on the order online
 
 1) Click on the Login/Signup.
 
 ![dotalogin](./images/a6.png)
-
 
 ## Sign-in page
 
@@ -22,16 +21,16 @@ Users orders will reflect on the orders page.
 
 ![ordersdota](./images/a8.png)
 
-## Go to the Appllication list :
+## Go to the Appllication list
 
 ![ordersdota](./images/sdk_application.png)
 
-## New order 
+## New order
 
 Click on the add application on applications tab.
 ![ordersdota](./images/sdk_addapplication.png)
 
-## Add Application and place order 
+## Add Application and place order
 
 User need to click on the add application and place order.
 ![ordersdota](./images/sdk_placeorder.png)
@@ -48,10 +47,9 @@ Once the order is completed the page will redirected to SDK page which shows And
 
 Note : On SDK page use can use the Test mode tab for testing there application.
 
+![ordersdota](./images/sdk_sdk.png)
 
-![ordersdota](./images/sdk_sdk.png).
-
-## Details page 
+## Details page
 
 Details page consists.
 
@@ -79,7 +77,7 @@ Details page consists.
 
 2 ) User can use the Add language drop down button to add languages as per there package.
 
-3)User can see his applcation mode is live on App.page.
+3)User can see his application mode is live on App.page.
 
 4 ) User can see the Application names and App key and Bundle ID and phone version on the App.page and status.
 
