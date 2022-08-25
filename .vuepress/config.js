@@ -44,7 +44,8 @@ module.exports = {
           title: 'Translator Guide',
           collapsable: true,
           children: [
-            'Translator'
+            'Platform',
+            'Translation'
           ]
         },
         {
