@@ -1,5 +1,6 @@
 # DOTA Mobile App 
-# Login
+
+## Login
 
 User needs to go to the Devangri home page.
 ![air](./images/a5.png)
@@ -88,7 +89,7 @@ Details page consists.
 
 ![ordersdota](./images/sdk_app.png).
 
-# Adding Bundle ID
+## Adding Bundle ID
 
 User needs to go the applications upon clicking on the orders.
 ![applications](./images/applications.png)
@@ -96,7 +97,7 @@ User needs to go the applications upon clicking on the orders.
 ![bundle](./images/bundle.png)
 Add generated Bundle Id of your application.
 
-![Appkey](./images/id.png)
+![Appkey](./images/ID.png)
 Upon Generating the Bundle ID the user need to enter the Bundle Id in the 'Enter Bundle ID' section
 ![Bundleid](./images/Name.png)
 ![submit](./images/Sumbit.png)
