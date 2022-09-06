@@ -1,4 +1,4 @@
-# DOTA
+# DOTA Web
 
 Devnagri On the Air is a platform that translates your website on the fly.
 
