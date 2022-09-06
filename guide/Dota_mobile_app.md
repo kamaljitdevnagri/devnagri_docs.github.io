@@ -1,4 +1,4 @@
-# DOTA Mobile App 
+# DOTA Mobile App
 
 ## Login
 
@@ -23,7 +23,7 @@ Users orders will reflect on the orders page.
 
 ![ordersdota](./images/a8.png)
 
-## Go to the Appllication list
+## Go to the Application list
 
 ![ordersdota](./images/sdk_application.png)
 
@@ -55,37 +55,37 @@ Note : On SDK page use can use the Test mode tab for testing there application.
 
 Details page consists.
 
-1) Application name.
+1. Application name.
 
-2)Languages
+2. Languages
 
-3)Status
+3. Status
 
-4)Plan
+4. Plan
 
-5)Progress
+5. Progress
 
-6)Application Expiry date
+6. Application Expiry date
 
-7)Word count
+7. Word count
 
-8 )MAU's
+8. MAU's
 
 ![ordersdota](./images/sdk_detailspage.png)
 
 ## APP
 
-1 ) User can add different 15 applications on the App.page upon clicking on the Add app. tab.
+1. User can add different 15 applications on the App.page upon clicking on the Add app. tab.
 
-2 ) User can use the Add language drop down button to add languages as per there package.
+2. User can use the Add language drop down button to add languages as per there package.
 
-3)User can see his application mode is live on App.page.
+3. User can see his application mode is live on App.page.
 
-4 ) User can see the Application names and App key and Bundle ID and phone version on the App.page and status.
+4. User can see the Application names and App key and Bundle ID and phone version on the App.page and status.
 
-5 ) User can update instructions on App.page.
+5. User can update instructions on App.page.
 
-6 ) User can see the Progress,Word count,Translation type,Proof Read.
+6. User can see the Progress,Word count,Translation type,Proof Read.
 
 ![ordersdota](./images/sdk_app.png).
 
@@ -102,7 +102,6 @@ Upon Generating the Bundle ID the user need to enter the Bundle Id in the 'Enter
 ![Bundleid](./images/Name.png)
 ![submit](./images/Sumbit.png)
 ![addedbundle](./images/addedbundle.png)
-
 
 ## MAU's (Monthly Active USer)
 
