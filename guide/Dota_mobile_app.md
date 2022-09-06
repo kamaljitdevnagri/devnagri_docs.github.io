@@ -3,6 +3,7 @@
 ## Login
 
 User needs to go to the Devangri home page.
+
 ![air](./images/a5.png)
 
 ## User needs to click on the order online
@@ -92,13 +93,17 @@ Details page consists.
 ## Adding Bundle ID
 
 User needs to go the applications upon clicking on the orders.
+
 ![applications](./images/applications.png)
 ![App](./images/API.png)
 ![bundle](./images/bundle.png)
+
 Add generated Bundle Id of your application.
 
 ![Appkey](./images/ID.png)
+
 Upon Generating the Bundle ID the user need to enter the Bundle Id in the 'Enter Bundle ID' section
+
 ![Bundleid](./images/Name.png)
 ![submit](./images/Sumbit.png)
 ![addedbundle](./images/addedbundle.png)
@@ -118,11 +123,13 @@ User can translate the words to PT by using the PT tab.
 ## Rule
 
  Some words which never translate or translate as given words.
+
 ![rule](./images/rule1.png)
 
 ## Never translate
 
 If User do not want to translate any word we should create a rule upon updating never translate button.
+
 ![acer](./images/acer.png)
 
 ## Always translate  
