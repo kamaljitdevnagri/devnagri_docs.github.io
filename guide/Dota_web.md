@@ -181,7 +181,6 @@ User can also do modification of the sentences.
 
 ![proofread](./images/Toggledota.png)
 
-
 ## Published
 
 Only published links are shown as translated.
@@ -205,12 +204,12 @@ User can search any URL in the search button.
 
 ![morelanguage1](./images/Addmorelanguage1.png)
 
-
 ## Delete tab
 
 We can delete the URL's by using the delete button.
 
 ![RR](./images/a18.png)
+
 ## Change language dropdown filter button
 
 User can see all the progress of the translated URL's
@@ -255,14 +254,10 @@ User can see all the Premium translation orders under the PT page
 
 Upon clicking the upgrade to PT user will redirect to the URLs page and select the URL upon making payment the URL will upgrade to PT.
 
-
 ![pt](./images/PT.png)
 ![SS](./images/a23.png)
 
-
 ![URlupgaretopt](./images/a21.png)
-
-
 
 ![upgradept](./images/DOTAMTTOPT.png)
 
