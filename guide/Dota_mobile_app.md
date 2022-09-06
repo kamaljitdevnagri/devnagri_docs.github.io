@@ -1,3 +1,4 @@
+# DOTA Mobile App 
 # Login
 
 User needs to go to the Devangri home page.
@@ -87,13 +88,28 @@ Details page consists.
 
 ![ordersdota](./images/sdk_app.png).
 
+# Adding Bundle ID
+
+User needs to go the applications upon clicking on the orders.
+![applications](./images/applications.png)
+![App](./images/API.png)
+![bundle](./images/bundle.png)
+Add generated Bundle Id of your application.
+
+![Appkey](./images/id.png)
+Upon Generating the Bundle ID the user need to enter the Bundle Id in the 'Enter Bundle ID' section
+![Bundleid](./images/Name.png)
+![submit](./images/Sumbit.png)
+![addedbundle](./images/addedbundle.png)
+
+
 ## MAU's (Monthly Active USer)
 
 User can see applicaton mode,Extra views,Filter,Total pages on the MAU's page.
 
 ![ordersdota](./images/sdk_mau.png).
 
-## Premuim translation
+## Premium translation
 
 User can translate the words to PT by using the PT tab.
 

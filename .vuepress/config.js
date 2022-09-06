@@ -37,7 +37,8 @@ module.exports = {
           children: [
             'Client_Guide',
             'Glossary',
-            'dota' ,
+            'Dota_web' ,
+            'Dota_mobile_app'
           ]
         },
         {
