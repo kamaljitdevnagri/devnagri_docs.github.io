@@ -109,7 +109,7 @@ User can see applicaton mode,Extra views,Filter,Total pages on the MAU's page.
 
 ![ordersdota](./images/sdk_mau.png).
 
-## Premuim translation
+## Premium translation
 
 User can translate the words to PT by using the PT tab.
 
