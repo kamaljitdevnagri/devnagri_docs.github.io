@@ -387,14 +387,15 @@ Response:
 
 ## JSON order using API
 
-> `POST: https://app.devnagri.com/api/order/json`
-
 ### Request
 
-```json
-{
-    "api_key": "SECRET_API_KEY_XXXXX",
-    "project_name": "My Sample Order",
+```curl
+curl --location --request POST 'https://app.devnagri.com/api/order/json' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+    "api_key": "recgdgstaDKtVpMIJQ",
+    "project_name": "Sample Project Name",
     "industry": "sports",
     "source_language": "en",
     "target_language": [
@@ -411,7 +412,7 @@ Response:
             "OriginalText": "How are you?"
         }
     ]
-}
+}'
 ```
 
 ### Response
@@ -421,7 +422,7 @@ Response:
     "status": "success",
     "code": 200,
     "message": "Order placed successfully.",
-    "order_id": "DEV00510"
+    "order_id": "DEV00420"
 }
 ```
 
