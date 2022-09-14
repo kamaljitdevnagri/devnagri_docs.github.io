@@ -405,11 +405,11 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
     "data": [
         {
             "id": 1,
-            "OriginalText": "Hello World"
+            "value": "Hello World"
         },
         {
             "id": 2,
-            "OriginalText": "How are you?"
+            "value": "How are you?"
         }
     ]
 }'
