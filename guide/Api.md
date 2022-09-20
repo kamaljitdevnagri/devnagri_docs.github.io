@@ -488,7 +488,7 @@ This API is responsible for returning transliteration for the input sentence.
 ```cURL
 curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 --form 'input_text="नमस्ते"' \
---form 'src_lang="hi"' \
+--form 'src_lang="auto"' \
 --form 'dest_lang="ml"' \
 --form 'key="recgdgstaDKtVpMIJQ"'
 ```
@@ -511,7 +511,7 @@ The request requires input in the form data
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
 | input_text | नमस्ते | Input text |
-| src_lang | hi | language code. [Ref](LanguageCodes.md). |
+| src_lang | auto | This is an optional field, and can be set to "auto". This will detect the language of the `input_text`. language code. [Ref](LanguageCodes.md). |
 | dest_lang | bn | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 
