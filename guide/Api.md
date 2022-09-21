@@ -527,7 +527,7 @@ Text between square brackets`[]` will only be transliterated and rest of them wi
 ```cURL
 curl --location --request POST 'https://app.devnagri.com/api/transliterate-custom' \
 --form 'file=@"/C:/Users/kumar/SampleLyrics.en.txt"' \
---form 'src_lang="en"' \
+--form 'src_lang="auto"' \
 --form 'dest_lang="hi"' \
 --form 'key="recgdgstaDKtVpMIJQ"'
 ```
@@ -567,7 +567,7 @@ The request requires input in the form data
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
 | file | "/C:/Users/kumar/SampleLyrics.en.txt" [Ref](Api.md#source-file-content) | Source File |
-| src_lang | hi | language code. [Ref](LanguageCodes.md). |
+| src_lang | auto | This is an optional field, and can be set to "auto". This will detect the language of the `input_text`. language code. [Ref](LanguageCodes.md). |
 | dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 
