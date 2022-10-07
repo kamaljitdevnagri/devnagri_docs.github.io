@@ -446,7 +446,7 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 
 This API is responsible for returning translation for the input sentence.
 
-> `POST: https://app.devnagri.com/api/translateSentenceTest`
+> `POST: https://app.devnagri.com/api/translate-sentence-api`
 
 ### Request
 
@@ -465,6 +465,9 @@ curl --location --request POST 'https://app.devnagri.com/api/translateSentenceTe
     "translated_text": "हैलो देवनागरी"
 }
 ```
+
+> **Deprecated**
+> `POST: https://app.devnagri.com/api/translateSentenceTest`
 
 #### Request parameters
 
