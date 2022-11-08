@@ -442,6 +442,66 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
 
+## Reject Sentence API
+
+This API is responsible to reject the translation for the given sentences in an ongoing order.
+
+> `POST: https://app.devnagri.com/api/order/json/reject`
+
+### Request
+
+```json
+{
+  "api_key": "recgdgstaDKtVpMIJQ",
+  "order_code": "DEV04200",
+  "data": {
+      "hi": [
+        "I think that we may safely trust a good deal more than we do.",
+        "There's a world of good you could perform."
+      ],
+      "bn": [
+        "There's a world of good you could perform.",
+        "While he waited at the train station, Joe realized that the train was late."
+      ]
+  }
+}
+```
+
+### Request (with comment)
+
+```json
+{
+  "api_key": "recgdgstaDKtVpMIJQ",
+  "order_code": "DEV04200",
+  "data": {
+        "bn": "What's your name?",
+        "hi": "What's your name?",
+        "mr": "What's your name?"
+    },
+   "comment": "Please transliterate. Do not translate."
+}
+```
+
+> Note: The comment will apply to these sentences only. Please make sure to choose correct translation.
+
+### Response
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "message": "Order DEV04200 has been sent back for review."
+}
+```
+
+#### Request parameters
+
+| Key | Sample value | Description
+| -------------:|:-------------:|:-------------:|
+| api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+| order_code | DEV04200 | Order Code |
+| data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
+
 ## Translation API
 
 This API is responsible for returning translation for the input sentence.
@@ -573,49 +633,6 @@ The request requires input in the form data
 | src_lang | auto | This is an optional field, and can be set to "auto". This will detect the language of the `input_text`. language code. [Ref](LanguageCodes.md). |
 | dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
-
-## Reject Sentence API
-
-This API is responsible to reject the translation for the given sentences in an ongoing order.
-
-> `POST: https://app.devnagri.com/api/order/json/reject`
-
-### Request
-
-```json
-{
-  "api_key": "recgdgstaDKtVpMIJQ",
-  "order_code": "DEV04200",
-  "data": {
-      "hi": [
-        "I think that we may safely trust a good deal more than we do.",
-        "There's a world of good you could perform."
-      ],
-      "bn": [
-        "There's a world of good you could perform.",
-        "While he waited at the train station, Joe realized that the train was late."
-      ]
-  }
-}
-```
-
-### Response
-
-```json
-{
-    "status": "success",
-    "code": 200,
-    "message": "Order DEV04200 has been sent back for review."
-}
-```
-
-#### Request parameters
-
-| Key | Sample value | Description
-| -------------:|:-------------:|:-------------:|
-| api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
-| order_code | DEV04200 | Order Code |
-| data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
 
 ## Custom Response API
 
