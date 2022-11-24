@@ -385,7 +385,7 @@ Response:
 
 ------------------------ -->
 
-## JSON order using API
+## API JSON Order: Create
 
 ### Request
 
@@ -442,7 +442,57 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
 
-## Reject Sentence API
+## API JSON Order: Fetch
+
+### Request
+
+```curl
+curl --location --request POST 'https://app.devnagri.com/api/order/json-response' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "api_key": "recgdgstaDKtVpMIJQ",
+    "order_id": "DEV04200"
+}'
+```
+
+### Response
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "data": [
+        {
+            "id": "Thank you. Hi. I'd like to go to the Adelphi Hotel.",
+            "hi": "धन्यवाद। हाय। मैं एडलफी होटल में जाना चाहता हूं।"
+        },
+        {
+            "id": "Excuse me. - I'm sorry. This is my cab.",
+            "hi": "माफ कीजिएगा। -मैं माफी चाहता हूं। यह मेरी कैब है।"
+        }
+    ]
+}
+```
+
+### Response (When translation is not completed)
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "data": [],
+    "message": "Translation not completed."
+}
+```
+
+### Request Parameters
+
+| Key        | Value | Description
+| ------------- |:-------------:|:-------------:|
+| api_key | SECRET_API_KEY_XXXXX | The key will be provided by the Devnagri and can be found at [Usage Details](https://app.devnagri.com/account/usage) |
+| order_id | DEV04200 | Unique Order Code |
+
+## API JSON Order: Reject
 
 This API is responsible to reject the translation for the given sentences in an ongoing order.
 
@@ -578,7 +628,7 @@ The request requires input in the form data
 | dest_lang | bn | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 
-## Transliteration Custom API
+## Transliteration API: Custom
 
 This API is responsible for returning custom transliteration for the input file.
 Text between square brackets`[]` will only be transliterated and rest of them will be ignored.
@@ -633,44 +683,3 @@ The request requires input in the form data
 | src_lang | auto | This is an optional field, and can be set to "auto". This will detect the language of the `input_text`. language code. [Ref](LanguageCodes.md). |
 | dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
-
-## Custom Response API
-
-This API is returns a custom response with source language and target language
-
-> `POST: https://app.devnagri.com/api/order/json-response`
-
-### Request
-
-```json
-{
-    "api_key": "recgdgstaDKtVpMIJQ",
-    "order_id": "DEV04200"
-}
-```
-
-### Response
-
-```json
-{
-    "status": "success",
-    "code": 200,
-    "data": [
-        {
-            "id": "Thank you. Hi. I'd like to go to the Adelphi Hotel.",
-            "hi": "धन्यवाद। हाय। मैं एडलफी होटल में जाना चाहता हूं।"
-        },
-        {
-            "id": "Excuse me. - I'm sorry. This is my cab.",
-            "hi": "माफ कीजिएगा। -मैं माफी चाहता हूं। यह मेरी कैब है।"
-        }
-    ]
-}
-```
-
-#### Request parameters
-
-| Key | Sample value | Description
-| -------------:|:-------------:|:-------------:|
-| api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
-| order_id | DEV04200 | Unique Order Code |
