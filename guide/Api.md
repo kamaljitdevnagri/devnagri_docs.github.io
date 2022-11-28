@@ -402,14 +402,10 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
         "hi",
         "bn"
     ],
-    "data": [
+        "data": [
         {
-            "id": 1,
-            "value": "Hello World"
-        },
-        {
-            "id": 2,
-            "value": "How are you?"
+            "test-123": "Hello World",
+            "test-456": "How are you?"
         }
     ]
 }'
@@ -430,6 +426,8 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 
 1. This API is responsible to create order without platform interface using a secret API key.
 2. After getting success response from the API, the user can then login to the [platform](https://app.devnagri.com/client/orders), and see the order.
+3. In the JSON data (key-value pairs), the keys will be ignored and not be processed for the translation.
+    ![JSON_Req](./images/json_order_req.png)
 
 ### Request Parameters
 
