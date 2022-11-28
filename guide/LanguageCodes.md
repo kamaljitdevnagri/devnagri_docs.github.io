@@ -1,5 +1,7 @@
 # Language Codes
 
+## Supported Translation Languages
+
 | Language Name        | Language Code
 | ------------- |:-------------:|
 | Hindi - हिंदी | hi |
@@ -26,3 +28,24 @@
 | Vietnamese | vi |
 | Indonesian (Bhasa) | id |
 | Urdu | ur |
+
+## Supported Transliteration Languages
+
+| Language Name        | Language Code
+| ------------- |:-------------:|
+| Arabic (اَلْعَرَبِيَّةُ) | ar |
+| Bengali (বাংলা) | bn |
+| Gujarati (ગુજરાતી) | gu |
+| Hindi (हिन्दी) | hi |
+| Kannada (ಕನ್ನಡ) | kn |
+| Konkani Goa (कोंकणी) | gom |
+| Maithili (मैथिली) | mai |
+| Malayalam (മലയാളം) | ml |
+| Marathi (मराठी) | mr |
+| Parsi (فارسی/دری) | fa |
+| Punjabi (ਗੁਰਮੁਖੀ) | pa |
+| Sindhi (سنڌي‎) | sd |
+| Sinhalese (සිංහල) | si |
+| Tamil (தமிழ்) | ta |
+| Telugu (తెలుగు) | te |
+| Urdu (اُردُو) | ur |
