@@ -518,21 +518,6 @@ This API is responsible to reject the translation for the given sentences in an 
 }
 ```
 
-### Request (with comment)
-
-```json
-{
-  "api_key": "recgdgstaDKtVpMIJQ",
-  "order_code": "DEV04200",
-  "data": {
-        "bn": "What's your name?",
-        "hi": "What's your name?",
-        "mr": "What's your name?"
-    },
-   "comment": "Please transliterate. Do not translate."
-}
-```
-
 > Note: The comment will apply to these sentences only. Please make sure to choose correct translation.
 
 ### Response
@@ -552,6 +537,7 @@ This API is responsible to reject the translation for the given sentences in an 
 | api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 | order_code | DEV04200 | Order Code |
 | data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
+| comment | {Your comment for rejection} | This is an optional field |
 
 ## Translation API
 
