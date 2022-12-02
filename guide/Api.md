@@ -504,14 +504,17 @@ This API is responsible to reject the translation for the given sentences in an 
   "order_code": "DEV04200",
   "data": {
       "hi": [
+        "Hello World",
         "I think that we may safely trust a good deal more than we do.",
         "There's a world of good you could perform."
       ],
       "bn": [
+        "Hello World",
         "There's a world of good you could perform.",
         "While he waited at the train station, Joe realized that the train was late."
       ]
-  }
+  },
+  "comment": "Please transliterate. Do not translate."
 }
 ```
 
