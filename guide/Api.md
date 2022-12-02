@@ -400,7 +400,8 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
     "source_language": "en",
     "target_language": [
         "hi",
-        "bn"
+        "bn",
+        "gu"
     ],
         "data": [
         {
@@ -512,7 +513,8 @@ This API is responsible to reject the translation for the given sentences in an 
         "Hello World",
         "There's a world of good you could perform.",
         "While he waited at the train station, Joe realized that the train was late."
-      ]
+      ],
+      "gu": "Hello World",
   },
   "comment": "Please transliterate. Do not translate."
 }
@@ -536,7 +538,7 @@ This API is responsible to reject the translation for the given sentences in an 
 | -------------:|:-------------:|:-------------:|
 | api_key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
 | order_code | DEV04200 | Order Code |
-| data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | An array of sentences inside language code as key  |
+| data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | A single sentence or an array of sentences inside language code as key  |
 | comment | {Your comment for rejection} | This is an optional field |
 
 ## Translation API
