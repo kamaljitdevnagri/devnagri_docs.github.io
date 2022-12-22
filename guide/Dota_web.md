@@ -366,10 +366,12 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 ![jumptosorting](./images/jump.png)
 
-## Publish 
+## Publish
 
 enable translation for the domain.
-## Language switcher 
+
+## Language switcher
+
 User can add the following script to your website to display the language switcher on your website.
 
 User needs to click on the copy button. JS script will be copied to the clipboard. You would need to put this JS code across your website (preferably in a GTM container).
@@ -377,30 +379,36 @@ User needs to click on the copy button. JS script will be copied to the clipboar
 ![jumptosorting](./images/copy.png)
 
 ## Custom CSS
+
 You can add Custom CSS for Native Language Switcher Dropdown
 Recommendation: Please use combination of (right and bottom) or (left and bottom) and rest field is empty for better dropdown position.
 
 ## Hreflang tags for Google indexing bots
+
 Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
 Note that with this method, you don't need to edit your sitemap.
 
 ## Settings
+
 Language dropdown on your website
 Recommendation : if you are using custom dropdown, please disable both the options.
 
 ## Enable Subdomain Redirect
+
 If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the cname successfully.
 Recommended: if you are not using your default language dropdown.
 
 ## Enable Language Dropdown UI
+
 This settings help you populate an automatic language dropdown on your proxy website.
 
 ## Enable Static Content Website
+
 This settings for if your website has static content then enabling this would speed up the content localisation.
 
 ## Subdomain
-You can active subdomains for language with the Cname.
 
+You can active subdomains for language with the Cname.
 
 ![publish](./images/a24.png)
 
@@ -419,3 +427,44 @@ If User do not want to translate any word we should create a rule upon updating 
 If User wants to translate any particular word he can create a rule for always translate.
 
 ![never](./images/never.png)
+
+## Purge Cache
+
+1. Page cache clear. Clear cache of a single url
+
+> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-url**
+
+```json
+{
+    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
+    "english_url":"https://fourtek.com/social-media-optimization.php"
+}
+```
+
+> NOTE: One only need to pass either local_url or english_url.
+
+2. Clear cache of whole domain/subdomain
+
+> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-domain**
+
+```json
+{
+    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
+    "english_url":"https://fourtek.com/social-media-optimization.php"
+}
+```
+
+> NOTE: One only need to pass either local_url or english_url.
+
+3. Clear cache of urls by prefix
+
+> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-url-prefix**
+
+```json
+{
+    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
+    "english_url":"https://fourtek.com/social-media-optimization.php"
+}
+```
+
+> NOTE: One only need to pass either local_url or english_url.
