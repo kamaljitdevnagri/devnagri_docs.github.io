@@ -430,41 +430,42 @@ If User wants to translate any particular word he can create a rule for always t
 
 ## Purge Cache
 
-1. Page cache clear. Clear cache of a single url
+### 1. Clear cache of a single url
 
-> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-url**
-
-```json
-{
-    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
-    "english_url":"https://fourtek.com/social-media-optimization.php"
-}
-```
-
-> NOTE: One only need to pass either local_url or english_url.
-
-2. Clear cache of whole domain/subdomain
-
-> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-domain**
+> **POST 'https://dota-web-api.devnagri.com/api/purge-cache-url'**
 
 ```json
 {
-    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
-    "english_url":"https://fourtek.com/social-media-optimization.php"
+    "api_key" : "abcdefghijk_xxx",
+    "url" : "https://fourtek.com/"
 }
 ```
 
-> NOTE: One only need to pass either local_url or english_url.
+#### Request parameters
 
-3. Clear cache of urls by prefix
+The request requires input in the json data
 
-> **POST: https://dota-web-api.devnagri.com/api/page-cache/clear-url-prefix**
+| Key | Sample value | Description |
+| -------------:|:-------------:|:-------------:|
+| api_key | abcdefghijk_xxx | API Key |
+| url | "https://fourtek.com/" | URL for purging |
+
+### 2. Clear cache of complete domain
+
+> **POST 'http://localhost:8081/api/purge-cache-url'**
 
 ```json
 {
-    "local_url":"https://hi.fourtek.com/social-media-optimization.php",
-    "english_url":"https://fourtek.com/social-media-optimization.php"
+    "api_key" : "abcdefghijk_xxx",
+    "isDomainWise" : true
 }
 ```
 
-> NOTE: One only need to pass either local_url or english_url.
+#### Request parameters
+
+The request requires input in the json data
+
+| Key | Sample value | Description |
+| -------------:|:-------------:|:-------------:|
+| api_key | abcdefghijk_xxx | API Key |
+| isDomainWise | true | This as **true** will purge the complete domain for this API key |
