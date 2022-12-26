@@ -21,7 +21,6 @@
 | German - Deutsche | de |
 | Spanish - Español | es |
 | Japanese - 日本人 | ja |
-| Chinese - 中文 | zh |
 | Italian - italiano | it |
 | Dutch (Netherlands) | nl |
 | Portuguese (Portugal, Brazil | pt |
