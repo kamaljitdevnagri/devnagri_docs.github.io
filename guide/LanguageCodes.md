@@ -23,12 +23,24 @@
 | Japanese - 日本人 | ja |
 | Chinese - 中文 | zh |
 | Italian - italiano | it |
-| Dutch | nl |
+| Dutch (Netherlands) | nl |
 | Portuguese (Portugal, Brazil | pt |
-| Vietnamese | vi |
+| Vietnamese - Tiếng Việt | vi |
 | Indonesian (Bhasa) | id |
-| Urdu | ur |
-
+| Urdu - کا کوڈ | ur |
+| Chinese - simplified - 简体中文 | zh-CN |
+| Chinese - Traditional - 中國傳統的 | zh-TW |
+| Kashmiri | ksm |
+| Konkani | gom |
+| Manipuri - ꯃꯅꯤꯄꯨꯔꯤꯗꯥ ꯂꯩꯕꯥ꯫| mni-Mtei |
+| Nepali - नेपाली | ne |
+| Sanskrit - संस्कृत| sa |
+| Sindhi - سنڌي‎ | sd |
+| Bodo | bodo |
+| Santhali | snthl |
+| Maithili - मैथिली | mai |
+| Dogri - डोगरी| doi |
+| Malay - Melayu | ms |
 ## Supported Transliteration Languages
 
 | Language Name        | Language Code
