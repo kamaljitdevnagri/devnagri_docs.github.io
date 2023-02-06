@@ -14,5 +14,5 @@ jobs:
         TARGET_REPO: devnagriai/devnagri_docs
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: docs/.vuepress/dist
+        BUILD_DIR: docs/.vuepress/
         CNAME: https://docs2.devnagri.dev
