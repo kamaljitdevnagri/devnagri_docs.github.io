@@ -10,12 +10,12 @@ jobs:
           apt-get update
           apt-get install -y git
 
-     - name: Checkout
-       uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-     - name: vuepress-deploy
-       uses: jenkey2011/vuepress-deploy@master
-       env:
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
          TARGET_REPO: devnagriai/devnagri_docs
          TARGET_BRANCH: master
