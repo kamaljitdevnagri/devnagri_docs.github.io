@@ -17,8 +17,8 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-         TARGET_REPO: devnagriai/devnagri_docs
-         TARGET_BRANCH: master
+         TARGET_REPO: kamaljitdevnagri/devnagri_docs.github.io
+         TARGET_BRANCH: docs
          BUILD_SCRIPT: yarn && yarn docs:build
-         BUILD_DIR: docs/dest/
+         BUILD_DIR: public/
          CNAME: https://docs2.devnagri.dev
