@@ -8,46 +8,39 @@ Devnagri On The Air makes your multilingual journey quick and easy.
 
 ![air](./images/a5.png)
 
-## User Login
+## Login page
 
-If user has a existing account click on already login.
-If new user click on not login button.
+User has to provide the login id and password and click on Log In.
 
-![dotalogin](./images/a6.png)
+![signin](./images/Log_In.jpg)
 
-## Sign-in page
+## User Dashboard
 
-User has to provide the login id and password and click on sign-in.
-
-![signin](./images/dotaloginscreen.png)
-
-## Orders page
-
-Users orders will reflect on the orders page.
+User will be taken on his/her dashboard.
 
 ![ordersdota](./images/a8.png)
 
 ## Click on domains
 
-If User wants to translate his whole website he has to click on the domains button.
+If User wants to translate his website he has to click on the domains button.
 
 ![domains](./images/a7.png)
 
 ## Click on Add domain
 
-User has to click on the add domain.
+User has to click on the Add domain.
 
 ![adddomian](./images/a9.png)
 
 ## New order on Dota
 
-User has to click on orders and enter the URL of his website/Domain for translate.
+User has to enter the URL of his website/Domain for translate.
 
 ![url](./images/a10.png)
 
-## Package/Plans
+## Pricing Plans
 
-User has to select the package/plans and click on the place order.
+User has to select the pricing plans and click on the place order.
 
 ![price](./images/a11.png)
 
@@ -139,37 +132,47 @@ ex  Languages,Url's,Plan,Progress,word count,pages view.
 
 ## Progress  
 
-If all the URL's translated by system the progress will show 100% on the dashboard.
+If all the URL's translated by system then the progress will show 100% on the dashboard.
 
-## Word count
+## Words
 
-The word count shows how many words are in the URL.
+This shows word count - how many words are in the URL.
 
 ![wordcount](./images/a13.png)
 
-## Translation type
+## Type
 
-Under the translation type system shows the URL is MT,PT,HT.
+This shows translation type of URLs - MT,PT,HT.
 
-## Machine transalte
+### Machine translation
 
 The translation done by machine.
 
-## Human translation
+### Human translation
 
 As user want to translate URL him self by using proof read option.  
 
-## Premium translation
+### Premium translation
 
 ![translator](./images/a14.png)
 
-## Preview
+## Created On
+
+Shows the date on which the URL was created.
+
+## Updated On
+
+Shows the date on which the URL was updated with some new content.
+
+## Action
+
+### Preview
 
 User can view the translated URL of the particular language.
 
 ![preview](./images/a15.png)
 
-## Proof Read/Translate
+### Proof Read/Translate
 
 Click on proof read tab.
 
@@ -366,6 +369,73 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 ![jumptosorting](./images/jump.png)
 
+## Settings
+
+### Caching
+
+#### Custom Purge
+
+##### URL's Purge
+
+Used to purge the cache of URLs. <br>
+Limit - 5 URLs at a time, one per line.
+
+##### Folder/Prefix Purge
+
+Used to purge all the URLs of mentioned folder. <br>
+Limit - One folder at a time.
+
+#### Domains
+
+Purge all cached files of domains.
+
+#### Purge Settings
+
+Purge settings data so that changes done for the localised website get reflected.
+
+### Merge and Block
+
+#### Merge Folder(s)
+
+To merge msite or amp folders so that they do not show up repeatedly in the system. <br>
+Please add comma seprated folder names. eg:- amp,msite etc.
+
+#### Blocked Keyword(s)/URL(s)
+
+For preventing blocked URLs to store in system. <br>
+Please delete the malformed URLs once after adding them in the block list.
+
+#### Exclude Block
+
+Mention class or div that you do not want to translate.
+
+### Robots.txt
+
+Please check the syntax and ensure you upload correct robots.txt.
+
+### Object Mapping
+
+An image on the main site will be replaced by the localised image by providing the URLs of the images.
+
+- English URL -  has the image url of the main site.
+- Language - select the localised language.
+- Localised URL - has the image url that is to be put on the localised site.
+
+Note:- This feature can be used for images, docs, ppts etc.
+
+![object_mapping](./images/object_mapping.jpeg)
+
+### Iframes
+
+Specify iframe IDs that you want to localise. <br>
+Limit - Mentioned iframes should exist across the site.
+Please add comma separated iframe ids, for eg:- iframeid1, iframeid2 etc.
+
+### Hreflang Tags
+
+Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
+Note that with this method, you don't need to edit your sitemap.
+
 ## Publish
 
 enable translation for the domain.
@@ -382,11 +452,6 @@ User needs to click on the copy button. JS script will be copied to the clipboar
 
 You can add Custom CSS for Native Language Switcher Dropdown
 Recommendation: Please use combination of (right and bottom) or (left and bottom) and rest field is empty for better dropdown position.
-
-## Hreflang tags for Google indexing bots
-
-Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
-Note that with this method, you don't need to edit your sitemap.
 
 ## Settings
 
