@@ -21,4 +21,4 @@ jobs:
          TARGET_BRANCH: docs
          BUILD_SCRIPT: yarn && yarn docs:build --no-cache
          BUILD_DIR: public/
-         CNAME: https://support.devnagri.com
+         CNAME: https://docs.devnagri.com
