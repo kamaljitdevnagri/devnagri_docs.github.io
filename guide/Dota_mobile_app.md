@@ -12,26 +12,25 @@ User needs to go to the Devangri home page.
 
 ![dotalogin](./images/a6.png)
 
-## Sign-in page
+## Login page
 
-User has to provide the login id and password and click on sign-in.
+User has to provide the login id and password and click on login.
 
-![signin](./images/dotaloginscreen.png)
+![signin](./images/Log_In.jpg)
 
-## Orders page
+## Dashboard
 
-Users orders will reflect on the orders page.
+GO to Mobile Apps on dashboard.
+![mobileapps](./images/mobile_apps.png)
 
-![ordersdota](./images/a8.png)
+<!-- ## Go to the Mobile Apps list
 
-## Go to the Application list
-
-![ordersdota](./images/sdk_application.png)
+![ordersdota](./images/sdk_application.jpg) -->
 
 ## New order
 
 Click on the add application on applications tab.
-![ordersdota](./images/sdk_addapplication.png)
+![ordersdota](./images/add_mobile_app.jpg)
 
 ## Add Application and place order
 
@@ -50,7 +49,7 @@ Once the order is completed the page will redirected to SDK page which shows And
 
 Note : On SDK page use can use the Test mode tab for testing there application.
 
-![ordersdota](./images/sdk_sdk.png)
+![ordersdota](./images/sdk_sdk.jpg)
 
 ## Details page
 
@@ -88,13 +87,11 @@ Details page consists.
 
 6. User can see the Progress,Word count,Translation type,Proof Read.
 
-![ordersdota](./images/sdk_app.png).
+![ordersdota](./images/sdk_app.jpg).
 
 ## Adding Bundle ID
 
-User needs to go the applications upon clicking on the orders.
-
-![applications](./images/applications.png)
+Click on apps to find API key and add Bundle ID
 ![App](./images/API.png)
 ![bundle](./images/bundle.png)
 
