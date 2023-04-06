@@ -62,6 +62,58 @@ If existing user has a credits in account the order will get confirmed and it wi
 
 If New user do not have any credits system will redirect to the payment page and it will redirected to the Dota dash board.
 
+## Domain verification
+
+Sign in to your domain name provider and add below TXT record into [DNS Configuration](https://www.youtube.com/watch?v=yQEG62PwVWw).
+
+![domain_verify](./images/domain_verify.png)
+
+Click on **verify** and then it will take up few minutes for verification.
+
+## Select approach
+
+1. Subdomain (hi.example.com)
+2. Subdirectory (example.com/hi)
+3. Live JS (example.com)
+
+### 1. Subdomain
+
+**a.** Please enter the following CNAME entries in your DNS record.
+
+Note: If you are using CDN, you need to disable proxy on Cloudflare.
+
+If you are using GoDaddy or Cloudflare you can see how to do it in the videos below:
+
+[GoDaddy](https://www.youtube.com/watch?v=aoikZ-3PV_8)
+<br>
+
+[Cloudflare](https://www.youtube.com/watch?v=Fe1Xnm58lQs)
+
+Click on **Verify Cname** and after verification the red cross should become green tick after a few seconds or minutes.
+
+![subdomain_step1](./images/subdomain_step1.png)
+
+Devnagri is currently initializing your subdomain(s). Please be patient while the process completes.
+
+**b.** To apply SSL on localised website, add below CNAME record to your DNS service provider. 
+Click on **Verify SSL** to verify this step.
+
+![subdomain_step2](./images/subdomain_step2.png)
+
+**c.** You're welcome to adhere to the guidelines and include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
+
+![subdomain_step3](./images/subdomain_step3.png)
+
+Once it's done, you can click on **Finish** and you're done!
+
+### 2. Subdirectory
+
+Please ensure you have done a mapping of absolute subfolder (www.yourdomainname/hi/) to proxy.devnagri.com
+
+### 3. Live JS
+
+You're welcome to adhere to the guidelines and include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website.
+
 ## Dota Dashboard  
 
 After confirming the order all the URL's will the not download automatically user has to click on add url's.
@@ -86,7 +138,7 @@ Click on the translate button URL's will be loaded to the Dota dashboard.
 
 ![tran](./images/translate.png)
 
-## Don't have URL(Click here)
+## Don't have URL
 
 If system not crawling all the URL's user can click on the click here button and add URL's manually.
 
@@ -128,7 +180,7 @@ ex  Languages,Url's,Plan,Progress,word count,pages view.
 
 ![plan](./images/Dotaactiveplandetails.png)
 
-## URL tab (explain in details)
+## URL tab
 
 ## Progress  
 
