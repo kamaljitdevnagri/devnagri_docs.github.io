@@ -151,41 +151,42 @@ ex  Languages,Urls,Plan,Progress,word count,pages view.
 
 If all the URLs translated by system then the progress will show 100% on the dashboard.
 
-## Add more URLs
+## Add URLs
 
-Upon clicking on the add URLs page will redirect to the next page
+If system did not crawl any url due to some technical issue or user want only one particular URL to be translated so user can provide the URL and translate the page.
+Upon clicking on the add URLs page will redirect to the next page.
 
-![nourl](./images/a2.png)
+![url_status](./images/DOTA_Web/URLStatus.png)
 
 ## URL sync again button
 
 Upon clicking on the Sync again button all the URLs will sync and will display on the screen.
 
-![sync](./images/a3.png)
+<!-- ![sync](./images/a3.png) -->
 
 ## Translate button
 
 Click on the translate button URLs will be loaded to the Dota dashboard.
 
-![tran](./images/translate.png)
+<!-- ![tran](./images/translate.png) -->
 
 ## Don't have URL
 
 If system not crawling all the URLs user can click on the click here button and add URLs manually.
 
-![Donthave](./images/clickurl.png)
+<!-- ![Donthave](./images/clickurl.png) -->
 
 ## Upload files
 
 User has to update all the URLs in the file and click on the upload button.
 
-![attach](./images/Attachedfile.png)
+![upload_files](./images/DOTA_Web/AddUrlUploadFiles.png)
 
 ## Paste URLs
 
 User can use this tab by pasting individually URLs. to crawl.
 
-![paste](./images/pasteurl.png)
+![paste_urls](./images/DOTA_Web/AddUrlPasteUrl.png)
 
 ## Words
 
@@ -221,7 +222,7 @@ Shows the date on which the URL was updated with some new content.
 
 User can view the translated URL of the particular language.
 
-![preview](./images/a15.png)
+<!-- ![preview](./images/a15.png) -->
 
 ### Proof Read/Translate
 
@@ -231,7 +232,7 @@ Proof read shows  all the sentences of the URL along with the translation.
 
 User can also do modification of the sentences.
 
-![pf](./images/a16.png)
+<!-- ![pf](./images/a16.png) -->
 
 ![proofread](./images/Toggledota.png)
 
@@ -272,12 +273,6 @@ in the particular language.
 
 ![PT](./images/Dotalanguageupgradeplan.png)
 
-## Add more URL
-
-If system did not crawl any url due to some technical issue or user want only one particular URL to be translated so user can provide the URL and translate the page.
-
-![URL](./images/Dotaaddurl.png)
-
 ## Filter Button
 
 User can use the filter button to search for Active/Inactive , Translation type, URls.
@@ -286,7 +281,7 @@ User can use the filter button to search for Active/Inactive , Translation type,
 
 ## Publish
 
-enable translation for the domain.
+Enable translation for the domain.
 
 ## Language Switcher
 
@@ -308,7 +303,7 @@ Recommendation : if you are using custom dropdown, please disable both the optio
 
 ## Enable Subdomain Redirect
 
-If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the cname successfully.
+If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the CNAME successfully.
 Recommended: if you are not using your default language dropdown.
 
 ## Enable Language Dropdown UI
@@ -323,7 +318,7 @@ This settings for if your website has static content then enabling this would sp
 
 You can active subdomains for language with the CNAME.
 
-![publish](./images/a24.png)
+![subdomain](./images/DOTA_Web/Subdomain.png)
 
 
 ## Page View
