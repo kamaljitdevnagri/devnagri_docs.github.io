@@ -16,7 +16,7 @@ User needs to go to the Devangri home page.
 
 User has to provide the login id and password and click on login.
 
-![signin](./images/Log_In.jpg)
+![signin](./images/Log_In.png)
 
 ## Dashboard
 
