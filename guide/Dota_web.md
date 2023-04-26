@@ -34,8 +34,9 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## Payment
 
-user will redirected to the payment page and choose any payment method and add the transactions and confirm the order.
-![payment](./images/payment.png)
+User will redirected to the payment page and choose any payment method and add the transactions and confirm the order.
+
+![payment](./images/DOTA_Web/Payment.png)
 
 Order gets confirmed and page will navigate to the verify website ownership page.
 <!-- ![l](./images/a1.png) -->
@@ -275,7 +276,7 @@ in the particular language.
 
 ## Filter Button
 
-User can use the filter button to search for Active/Inactive , Translation type, URls.
+User can use the filter button to search for Active/Inactive, Translation type, URls.
 
 ![filter](./images/a19.png)
 
@@ -285,34 +286,47 @@ Enable translation for the domain.
 
 ## Language Switcher
 
-User can add the following script to your website to display the language switcher on your website.
+User can add the following script to display the language switcher on your website.
 
-User needs to click on the copy button. JS script will be copied to the clipboard. You would need to put this JS code across your website (preferably in a GTM container).
-
-![jumptosorting](./images/copy.png)
+![language_switcher](./images/DOTA_Web/LanguageSwitcher.png)
 
 ## Custom CSS
 
-You can add Custom CSS for Native Language Switcher Dropdown
+You can use Custom CSS to customize the positioning of Language Switcher Dropdown.
 Recommendation: Please use combination of (right and bottom) or (left and bottom) and rest field is empty for better dropdown position.
+
+![dropdown_position](./images/DOTA_Web/CustomCSS.png)
 
 ## Settings
 
 Language dropdown on your website
 Recommendation : if you are using custom dropdown, please disable both the options.
 
-## Enable Subdomain Redirect
+![publish_settings](./images/DOTA_Web/PublishSettings.png)
+
+### Subdomain Redirect
 
 If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the CNAME successfully.
 Recommended: if you are not using your default language dropdown.
 
-## Enable Language Dropdown UI
+### Language Dropdown UI
 
-This settings help you populate an automatic language dropdown on your proxy website.
+Enabling This will help you populating an automatic language dropdown on your proxy website.
 
-## Enable Static Content Website
+### Automatic Translations
+
+If this is toggled to ON then any new URL that comes into the system automatically is marked ACTIVE and localised.
+If this is toggled to OFF then any new URL that comes into the system automatically is marked INACTIVE and NOT localised. The user is taken to the parent site when he tried to access this new URL.
+
+### Static Content Website
 
 This settings for if your website has static content then enabling this would speed up the content localisation.
+
+## SSL Certificate CNAME
+
+Please include the CNAME that has been generated for your localized website.
+
+![SSL_certificate](./images/DOTA_Web/SSLCertificate.png)
 
 ## Subdomain
 
@@ -320,26 +334,19 @@ You can active subdomains for language with the CNAME.
 
 ![subdomain](./images/DOTA_Web/Subdomain.png)
 
+## Page Views
 
-## Page View
-
-User can see no.of visitors in the page view.
+Here, the user can see no. of visitors for each URL and language.
 
 ![pageview](./images/DOTA_Web/PageViews.png)
 
-## Total Views
+### Total Views
 
-User can see how how many users are visiting his page it will reflect under the total views.
-
-<!-- ## Extra Views
-
-If user current plan exceeds no.of views user has use the pay button for extra views.
-
-![extrapay](./images/dataPayforextraviews.png) -->
+Total Views has the total no. of visitors for his/her domain.
 
 ## Premium Translation Tab
 
-User can see all the Premium translation orders under the PT page.
+User can see all the Premium translation orders on this page.
 
 ![PTOrder](./images/DOTA_Web/PTOrder.png)
 
@@ -463,29 +470,29 @@ User can enter any S.no in the search button and click on go button the S.no. wi
 
 ### Caching
 
-#### Custom Purge
+### Custom Purge
 
-##### URLs Purge
+### URLs Purge
 
 Used to purge the cache of URLs. <br>
 Limit - 5 URLs at a time, one per line.
 
 ![purge_url](./images/DOTA_Web/PurgeURL.png)
 
-##### Folder/Prefix Purge
+### Folder/Prefix Purge
 
 Used to purge all the URLs of mentioned folder. <br>
 Limit - One folder at a time.
 
 ![purge_folder](./images/DOTA_Web/PurgeFolder.png)
 
-#### Domains
+### Domains
 
 Purge all cached files of domains.
 
 ![purge_domain](./images/DOTA_Web/PurgeDomain.png)
 
-#### Purge Settings
+### Purge Settings
 
 Purge settings data so that changes done for the localised website get reflected.
 
@@ -493,21 +500,21 @@ Purge settings data so that changes done for the localised website get reflected
 
 ### Merge and Block
 
-#### Merge Folders
+### Merge Folders
 
 To merge msite or amp folders so that they do not show up repeatedly in the system. <br>
 Please add comma seprated folder names. eg:- amp,msite etc.
 
 ![merge_folders](./images/DOTA_Web/MergeFolder.png)
 
-#### Blocked Keywords/URLs
+### Blocked Keywords/URLs
 
 For preventing blocked URLs to store in system. <br>
 Please delete the malformed URLs once after adding them in the block list.
 
 ![blocked_keywords](./images/DOTA_Web/BlockedKeywords.png)
 
-#### Exclude Block
+### Exclude Block
 
 Mention class or div that you do not want to translate.
 
