@@ -342,7 +342,7 @@ Here, the user can see no. of visitors for each URL and language.
 
 ### Total Views
 
-Total Views has the total no. of visitors for his/her domain.
+Total Views has the total no. of visitors on your localised website.
 
 ## Premium Translation Tab
 
@@ -352,18 +352,13 @@ User can see all the Premium translation orders on this page.
 
 ## Order for Premium Translation
 
-Upon clicking the upgrade to PT user will redirect to the URLs page and select the URL upon making payment the URL will upgrade to PT.
+Upon clicking 'Order for Premium Translation', you will be redirected to the page where you can select the URLs for which you want to create Premium Translation order. Click on 'Next' after selecting the URLs and you will land on 'Create Order' page.
 
-![pt](./images/PT.png)
-![SS](./images/a23.png)
+![PT_order_urls](./images/DOTA_Web/PTOrderSelectURLs.png)
 
-![URlupgaretopt](./images/a21.png)
+## Create Order
 
-![upgradept](./images/DOTAMTTOPT.png)
-
-## Order Success
-
-Upon payment success page will redirect to orders page.
+This is where you can create order by filling all the details
 
 ![Ordersucess](./images/Ordersuccess..png)
 

@@ -14,7 +14,7 @@ Translator (Further, can be termed as “Translator”or “User”) can join th
 
 ![addlanguage](./images/addlanguage_3.png)
 
-2. Select the Terms & Condition checkbox and choose"Next" option.
+2. Select the Terms & Condition checkbox and choose "Next" option.
 
 ![tandc](./images/tanc.png)
 
@@ -22,7 +22,7 @@ Translator (Further, can be termed as “Translator”or “User”) can join th
 
  ![finish](./images/finish.png)
 
- 4. Success message will be displayed.
+4. Success message will be displayed.
 
 ## Log In
 
@@ -51,9 +51,11 @@ Navigation panel, available options are explained below;
 1. Profile: It is the first option on top-right corner of the screen. This option will navigate to account settings, profile, guide and will help to log out from current account.
 
  ![profile](./images/profilekutumbh.png)
+
 2. Notification: This option higlights any new update important for translator. Once click on any notification user will redirect to actual screen.
 
 ![notification](./images/notificationkutumbh.png)
+
 3. Available Jobs: All the new orders should be displayed in available jobs screen.
 
 ![availblejobs](./images/availblejob.png)
@@ -66,7 +68,7 @@ Translator should Accept the order by click on accept button. After accepting, t
 
 or
 
-Transltor can Reject the order aswell. After rejecting, that order will not reflect to translator.
+Translator can Reject the order as well. After rejecting, that order will not reflect to translator.
 
 4. Active Jobs: All the accepted orders will be displayed on Active jobs screen.
 

@@ -1,6 +1,6 @@
 # Devnagri Platform APIs
 
-## Login API
+<!-- ## Login API
 
 This API enables client to login
 
@@ -21,9 +21,9 @@ This API enables client to login
 {
     "token": "asdiasdoiasdubdebdsbdaysbduaysbduaysbd"
 }
-```
+``` -->
 
-## Generate API Token
+<!-- ## Generate API Token
 
 > `POST https://app.devnagri.com/api/key/validations`
 
@@ -54,9 +54,9 @@ Accept: 'Application/json'
 Authorization: 'bearer your-token-here'
 ```
 
-------------------------
+------------------------ -->
 
-## Get all languages
+<!-- ## Get all languages
 
 Get all languages that we are using
 
@@ -79,9 +79,9 @@ Response
 ]
 ```
 
-------------------------
+------------------------ -->
 
-## Get all tags
+<!-- ## Get all tags
 
 This api provides all tags that is being used in devnagri.
 
@@ -137,7 +137,7 @@ Response
 
 ```
 
-------------------------
+------------------------ -->
 <!-- 
 ## Project related APIs
 
