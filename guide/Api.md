@@ -29,6 +29,10 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 
 ### Response
 
+::: tip SUCCESS
+*status code: 200*
+:::
+
 ```json
 {
     "status": "success",
@@ -38,12 +42,14 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 }
 ```
 
-#### Notes
+::: details NOTES
 
 1. This API is responsible to create order without platform interface using a secret API key.
 2. After getting success response from the API, the user can then login to the [platform](https://app.devnagri.com/client/orders), and see the order.
 3. In the JSON data (key-value pairs), the keys will be ignored and not be processed for the translation.
     ![JSON_Req](./images/json_order_req.png)
+
+:::
 
 ### Request Parameters
 
@@ -55,6 +61,9 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 | source_language | en | Language of the order which needs to be translated **from**. This will be a single value. [Ref.](LanguageCodes.md) |
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
 | data | Your JSON data | A valid JSON object |
+
+---
+---
 
 ## API JSON Order: Fetch
 
@@ -70,6 +79,10 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json-response
 ```
 
 ### Response
+
+::: tip SUCCESS
+*status code: 200*
+:::
 
 ```json
 {
@@ -90,6 +103,10 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json-response
 
 ### Response (When translation is not completed)
 
+::: tip SUCCESS
+*status code: 200*
+:::
+
 ```json
 {
     "status": "success",
@@ -105,6 +122,9 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json-response
 | ------------- |:-------------:|:-------------:|
 | api_key | SECRET_API_KEY_XXXXX | The key will be provided by the Devnagri and can be found at [Usage Details](https://app.devnagri.com/account/usage) |
 | order_id | DEV04200 | Unique Order Code |
+
+---
+---
 
 ## API JSON Order: Reject
 
@@ -139,6 +159,10 @@ This API is responsible to reject the translation for the given sentences in an 
 
 ### Response
 
+::: tip SUCCESS
+*status code: 200*
+:::
+
 ```json
 {
     "status": "success",
@@ -155,6 +179,9 @@ This API is responsible to reject the translation for the given sentences in an 
 | order_code | DEV04200 | Order Code |
 | data  | `{"lang_1": ["sentence_1", "sentence_2"], "lang_2": [...], ...}` | A single sentence or an array of sentences inside language code as key  |
 | comment | {Your comment for rejection} | This is an optional field |
+
+---
+---
 
 ## Translation API
 
@@ -174,6 +201,10 @@ curl --location --request POST 'https://app.devnagri.com/api/translate-sentence-
 
 ### Response
 
+::: tip SUCCESS
+*status code: 200*
+:::
+
 ```json
 {
     "translated_text": "हैलो देवनागरी"
@@ -190,6 +221,66 @@ The request requires input in the form data
 | sentence | Hello Devnagri | Input text to be translated |
 | src_lang | en | Source language code. [Ref](LanguageCodes.md). |
 | dest_lang | hi | Destination language code. [Ref](LanguageCodes.md). |
+
+#### Invalid API Key
+
+::: warning SUCCESS
+**status code:** 203 <br>
+**error code:** 203
+
+```json
+{
+    "code": 203,
+    "msg": {
+        "key": [
+            "Invalid key"
+        ]
+    }
+}
+```
+
+:::
+
+#### Request validation
+
+::: warning SUCCESS
+**status code:** 203 <br>
+**error code:** 203
+
+```json
+{
+    "code": 203,
+    "msg": {
+        "dest_lang": [
+            "The dest lang and src lang must be different."
+        ]
+    }
+}
+```
+
+:::
+
+#### Transaction limits reached
+
+::: warning SUCCESS
+**status code:** 206 <br>
+**error code:** 206
+
+```json
+{
+    "code": 206,
+    "msg": {
+        "key": [
+            "Your transaction limit has been exceeded. Please contact devnagri support."
+        ]
+    }
+}
+```
+
+:::
+
+---
+---
 
 ## Transliteration API
 
@@ -208,6 +299,10 @@ curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 ```
 
 ### Response
+
+::: tip SUCCESS
+*status code: 200*
+:::
 
 ```json
 {
@@ -228,6 +323,66 @@ The request requires input in the form data
 | src_lang | en |language code. [Ref](LanguageCodes.md). |
 | dest_lang | bn | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+
+#### Invalid API Key
+
+::: warning SUCCESS
+**status code:** 203 <br>
+**error code:** 203
+
+```json
+{
+    "code": 203,
+    "msg": {
+        "key": [
+            "Invalid key"
+        ]
+    }
+}
+```
+
+:::
+
+#### Request validation
+
+::: warning SUCCESS
+**status code:** 203 <br>
+**error code:** 203
+
+```json
+{
+    "code": 203,
+    "msg": {
+        "dest_lang": [
+            "The dest lang and src lang must be different."
+        ]
+    }
+}
+```
+
+:::
+
+#### Transaction limits reached
+
+::: warning SUCCESS
+**status code:** 206 <br>
+**error code:** 206
+
+```json
+{
+    "code": 206,
+    "msg": {
+        "key": [
+            "Your transaction limit has been exceeded. Please contact devnagri support."
+        ]
+    }
+}
+```
+
+:::
+
+---
+---
 
 ## Transliteration API: Custom
 
@@ -261,6 +416,10 @@ Lyrics: Sameer
 ```
 
 ### Response
+
+::: tip SUCCESS
+*status code: 200*
+:::
 
 ```txt
 Exclusive Upload for StarManch
