@@ -20,9 +20,9 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ![dashboard](./images/UserDashboard.png)
 
-## New Order on Dota
+## New Order on DOTA
 
-1. User has to enter the URL of his website/Domain for translation.
+1. User needs to enter the URL of his website which needs to be localised.
 2. Select the pricing plan.
 3. Select the duration.
 
@@ -34,7 +34,7 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## Payment
 
-User will redirected to the payment page and choose any payment method and add the transactions and confirm the order.
+User will redirect to the payment page and choose any payment method for the transaction and confirm the order.
 
 ![payment](./images/DOTA_Web/Payment.png)
 
@@ -43,13 +43,13 @@ Order gets confirmed and page will navigate to the verify website ownership page
 
 ## Order Confirmation
 
-If existing user has balance in wallet, the order will get confirmed and it will redirected to the verify website ownership page.
+If existing user has balance in wallet, the order will get confirmed and you will redirect to the verify website ownership page.
 
-If New user do not have any credits system, it will redirect to the payment page and then to the verify website ownership page.
+If new user does not have any credits, it will redirect to the payment page and then to the verify website ownership page.
 
 ## Verify Website Ownership
 
-Sign in to your domain name provider and add the generated TXT record for you into your [DNS Configuration](https://www.youtube.com/watch?v=yQEG62PwVWw).
+Sign in to your domain name provider and add the generated TXT record for you into your [DNS Configuration](https://www.youtube.com/watch?v=K1B5UwSBwko).
 
 ![domain_verify](./images/domain_verify.png)
 
@@ -74,14 +74,14 @@ Note: If you are using CDN, you need to disable proxy on Cloudflare.
 
 If you are using GoDaddy or Cloudflare you can see how to do it in the videos below:
 
-[GoDaddy](https://www.youtube.com/watch?v=aoikZ-3PV_8)
+[GoDaddy](https://www.youtube.com/watch?v=M47Lpp5f9lE)
 <br>
 
-[Cloudflare](https://www.youtube.com/watch?v=Fe1Xnm58lQs)
+[Cloudflare](https://www.youtube.com/watch?v=sCuEqr4MHKM)
 
-Click on **Verify CNAME** and after verification the red cross should become green tick after a few seconds or minutes.
+Click on **Verify CNAME** and after verification the red cross should become green tick after a few minutes.
 
-Devnagri is currently initializing your subdomains). Please be patient while the process completes.
+Devnagri is currently initializing your subdomains. Please be patient while the process completes.
 
 **b.** To apply SSL on localised website, add below CNAME record to your DNS service provider. 
 Click on **Verify SSL** to verify this step.
@@ -90,7 +90,7 @@ Step 2.
 
 ![subdomain_step2](./images/DOTA_Web/SubdomainStep2.png)
 
-You're welcome to adhere to the guidelines and include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
+It is recommended that you include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
 
 Once its done, you can click on **Finish** and you're done!
 
@@ -114,26 +114,26 @@ Step 2.
 
 Your project has been created. Now, you can go to DOTA dashboard by clicking on **Go to my dashboard**.
 
-<!-- ## Dota Dashboard  
+<!-- ## DOTA Dashboard  
 
 After confirming the order all the URLs will the not download automatically user has to click on add urls.
 
 ![urln](./images/a12.png) -->
 
-## Dota dashboard
+## DOTA dashboard
 
-User dash boards shows all the details of order.
+User dashboard shows all the details of order placed for a domain.
 
 1. Website name
 2. Languages
-3. URls
+3. URLs
 4. Status
 5. Plan
 6. Publish
 7. Progress
-8. Valid till
-9. Pages views
-10. Word count
+8. Valid Till
+9. Page Views
+10. Word Count
 
 ![dashboard](./images/DOTA_Web/DotaDashboard.png)
 
@@ -167,7 +167,7 @@ Upon clicking on the Sync again button all the URLs will sync and will display o
 
 ## Translate button
 
-Click on the translate button URLs will be loaded to the Dota dashboard.
+Click on the translate button URLs will be loaded to the DOTA dashboard.
 
 <!-- ![tran](./images/translate.png) -->
 
@@ -358,13 +358,13 @@ Upon clicking 'Order for Premium Translation', you will be redirected to the pag
 
 ## Create Order
 
-This is where you can create order by filling all the details
+This is where the user can create order by filling all the details.
 
 ![Ordersucess](./images/Ordersuccess..png)
 
 ## PT orders will reflect on orders page and PT
 
-The list of PT orders will shown under orders page as type DOTA and Premium translation page of DOTA dashboard.
+The list of PT orders will be shown under orders page as type DOTA and Premium translation page of DOTA dashboard.
 
 ![ordersummary](./images/DotaOrderconfirmedPT.png)
 
@@ -394,13 +394,13 @@ Link.
 
 Duplicate words.
 
-No.of words contain in the page.
+No.of words in the page.
 
 ![toggle](./images/Dotatoggle.png)
 
-## Toggle Button
+## Toggle Controls
 
-Upon clicking on toggle button the toggle will hide all the button on the page
+Upon clicking on toggle button the toggle will hide all the button present on the bottom of the page.
 
 ![toggle](./images/toggle1.png)
 ![tg](./images/toggle2.png)
@@ -411,11 +411,9 @@ Upon clicking on toggle button the toggle will hide all the button on the page
 
 ## Instructions
 
+This shows the instructions given at the order creation time.
+
 ![instruction](./images/Dotainstructions.png)
-
-## Font
-
-Font size can increase and decrease with this button.
 
 ![font](./images/Dotafont.png)
 
@@ -423,43 +421,53 @@ Font size can increase and decrease with this button.
 
 ## Save Translation
 
-If User/translator want to save a particular sentence after any changes in sentence they will click on the save translation button.
+User/Translator can save a particular segment after making any changes by clicking on the save translation button.
 
 ![save](./images/single.png)
 
-## Reject
-
-If user do not want to work on the sentence user/translator can click on the reject button.
-
-![reject](./images/Reject.png)
-
-## Save Translations in Single Click/Actions
-
-If user want to save all sentence at single time user has to click on action and select accept all.
-
-![allinks](./images/second.png)
-
-## Revision History
-
-![revision](./images/Revisionhistory.png)
-
 ## Add Comment
 
-User can add comment to translator on the sentence.
+User can add comment on the translation of any segment.
 
 ![addcomment](./images/Addcomment.png)
 
-## Sort By
+## Revision History
 
-User can sort all the sentence by using the sort by option.
+The Revision History feature allows users to review the complete history of changes made to a particular segment.
+
+![revision](./images/Revisionhistory.png)
+
+## Accept Translation
+
+Reviewers can accept the translations done by translators by clicking on this button.
+
+## Reject Translation
+
+Reviewers can reject the translations done by translators by clicking on this button.
+
+![reject](./images/Reject.png)
+
+## Accept/Reject All
+
+Reviewers can accept/reject all segments at once from here.
+
+![allinks](./images/second.png)
+
+## Filter By
+
+User can filter all the segment by using the options such as Translated, Untranslated, Accepted, Rejected, Commented, Duplicates etc.
 
 ![sort](./images/Sort.png)
 
 ## Jump to Segment
 
-User can enter any S.no in the search button and click on go button the S.no. will jump to that number on the page.
+User can enter any segment number in the search box and click on **Go** button to jump to that segment number on the page.
 
 ![jumptosorting](./images/jump.png)
+
+## Autofill MT
+
+## Preview
 
 ## Settings
 
