@@ -34,7 +34,7 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## Payment
 
-User will redirected to the payment page and choose any payment method and add the transactions and confirm the order.
+User will redirect to the payment page and choose any payment method for the transaction and confirm the order.
 
 ![payment](./images/DOTA_Web/Payment.png)
 
@@ -122,18 +122,18 @@ After confirming the order all the URLs will the not download automatically user
 
 ## DOTA dashboard
 
-User dash boards shows all the details of order.
+User dashboard shows all the details of order placed for a domain.
 
 1. Website name
 2. Languages
-3. URls
+3. URLs
 4. Status
 5. Plan
 6. Publish
 7. Progress
-8. Valid till
-9. Pages views
-10. Word count
+8. Valid Till
+9. Page Views
+10. Word Count
 
 ![dashboard](./images/DOTA_Web/DotaDashboard.png)
 
@@ -358,13 +358,13 @@ Upon clicking 'Order for Premium Translation', you will be redirected to the pag
 
 ## Create Order
 
-This is where you can create order by filling all the details
+This is where the user can create order by filling all the details.
 
 ![Ordersucess](./images/Ordersuccess..png)
 
 ## PT orders will reflect on orders page and PT
 
-The list of PT orders will shown under orders page as type DOTA and Premium translation page of DOTA dashboard.
+The list of PT orders will be shown under orders page as type DOTA and Premium translation page of DOTA dashboard.
 
 ![ordersummary](./images/DotaOrderconfirmedPT.png)
 
@@ -394,13 +394,13 @@ Link.
 
 Duplicate words.
 
-No.of words contain in the page.
+No.of words in the page.
 
 ![toggle](./images/Dotatoggle.png)
 
-## Toggle Button
+## Toggle Controls
 
-Upon clicking on toggle button the toggle will hide all the button on the page
+Upon clicking on toggle button the toggle will hide all the button present on the bottom of the page.
 
 ![toggle](./images/toggle1.png)
 ![tg](./images/toggle2.png)
@@ -411,11 +411,9 @@ Upon clicking on toggle button the toggle will hide all the button on the page
 
 ## Instructions
 
+This shows the instructions given at the order creation time.
+
 ![instruction](./images/Dotainstructions.png)
-
-## Font
-
-Font size can increase and decrease with this button.
 
 ![font](./images/Dotafont.png)
 
@@ -423,43 +421,53 @@ Font size can increase and decrease with this button.
 
 ## Save Translation
 
-If User/translator want to save a particular sentence after any changes in sentence they will click on the save translation button.
+User/Translator can save a particular segment after making any changes by clicking on the save translation button.
 
 ![save](./images/single.png)
 
-## Reject
-
-If user do not want to work on the sentence user/translator can click on the reject button.
-
-![reject](./images/Reject.png)
-
-## Save Translations in Single Click/Actions
-
-If user want to save all sentence at single time user has to click on action and select accept all.
-
-![allinks](./images/second.png)
-
-## Revision History
-
-![revision](./images/Revisionhistory.png)
-
 ## Add Comment
 
-User can add comment to translator on the sentence.
+User can add comment on the translation of any segment.
 
 ![addcomment](./images/Addcomment.png)
 
-## Sort By
+## Revision History
 
-User can sort all the sentence by using the sort by option.
+The Revision History feature allows users to review the complete history of changes made to a particular segment.
+
+![revision](./images/Revisionhistory.png)
+
+## Accept Translation
+
+Reviewers can accept the translations done by translators by clicking on this button.
+
+## Reject Translation
+
+Reviewers can reject the translations done by translators by clicking on this button.
+
+![reject](./images/Reject.png)
+
+## Accept/Reject All
+
+Reviewers can accept/reject all segments at once from here.
+
+![allinks](./images/second.png)
+
+## Filter By
+
+User can filter all the segment by using the options such as Translated, Untranslated, Accepted, Rejected, Commented, Duplicates etc.
 
 ![sort](./images/Sort.png)
 
 ## Jump to Segment
 
-User can enter any S.no in the search button and click on go button the S.no. will jump to that number on the page.
+User can enter any segment number in the search box and click on **Go** button to jump to that segment number on the page.
 
 ![jumptosorting](./images/jump.png)
+
+## Autofill MT
+
+## Preview
 
 ## Settings
 
