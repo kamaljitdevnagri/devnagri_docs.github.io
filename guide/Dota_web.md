@@ -20,9 +20,9 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ![dashboard](./images/UserDashboard.png)
 
-## New Order on Dota
+## New Order on DOTA
 
-1. User has to enter the URL of his website/Domain for translation.
+1. User needs to enter the URL of his website which needs to be localised.
 2. Select the pricing plan.
 3. Select the duration.
 
@@ -43,13 +43,13 @@ Order gets confirmed and page will navigate to the verify website ownership page
 
 ## Order Confirmation
 
-If existing user has balance in wallet, the order will get confirmed and it will redirected to the verify website ownership page.
+If existing user has balance in wallet, the order will get confirmed and you will redirect to the verify website ownership page.
 
-If New user do not have any credits system, it will redirect to the payment page and then to the verify website ownership page.
+If new user does not have any credits, it will redirect to the payment page and then to the verify website ownership page.
 
 ## Verify Website Ownership
 
-Sign in to your domain name provider and add the generated TXT record for you into your [DNS Configuration](https://www.youtube.com/watch?v=yQEG62PwVWw).
+Sign in to your domain name provider and add the generated TXT record for you into your [DNS Configuration](https://www.youtube.com/watch?v=K1B5UwSBwko).
 
 ![domain_verify](./images/domain_verify.png)
 
@@ -74,14 +74,14 @@ Note: If you are using CDN, you need to disable proxy on Cloudflare.
 
 If you are using GoDaddy or Cloudflare you can see how to do it in the videos below:
 
-[GoDaddy](https://www.youtube.com/watch?v=aoikZ-3PV_8)
+[GoDaddy](https://www.youtube.com/watch?v=M47Lpp5f9lE)
 <br>
 
-[Cloudflare](https://www.youtube.com/watch?v=Fe1Xnm58lQs)
+[Cloudflare](https://www.youtube.com/watch?v=sCuEqr4MHKM)
 
-Click on **Verify CNAME** and after verification the red cross should become green tick after a few seconds or minutes.
+Click on **Verify CNAME** and after verification the red cross should become green tick after a few minutes.
 
-Devnagri is currently initializing your subdomains). Please be patient while the process completes.
+Devnagri is currently initializing your subdomains. Please be patient while the process completes.
 
 **b.** To apply SSL on localised website, add below CNAME record to your DNS service provider. 
 Click on **Verify SSL** to verify this step.
@@ -90,7 +90,7 @@ Step 2.
 
 ![subdomain_step2](./images/DOTA_Web/SubdomainStep2.png)
 
-You're welcome to adhere to the guidelines and include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
+It is recommended that you include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
 
 Once its done, you can click on **Finish** and you're done!
 
@@ -114,13 +114,13 @@ Step 2.
 
 Your project has been created. Now, you can go to DOTA dashboard by clicking on **Go to my dashboard**.
 
-<!-- ## Dota Dashboard  
+<!-- ## DOTA Dashboard  
 
 After confirming the order all the URLs will the not download automatically user has to click on add urls.
 
 ![urln](./images/a12.png) -->
 
-## Dota dashboard
+## DOTA dashboard
 
 User dash boards shows all the details of order.
 
@@ -167,7 +167,7 @@ Upon clicking on the Sync again button all the URLs will sync and will display o
 
 ## Translate button
 
-Click on the translate button URLs will be loaded to the Dota dashboard.
+Click on the translate button URLs will be loaded to the DOTA dashboard.
 
 <!-- ![tran](./images/translate.png) -->
 
