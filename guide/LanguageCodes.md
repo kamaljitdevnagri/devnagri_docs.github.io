@@ -40,6 +40,8 @@
 | Maithili - मैथिली | mai |
 | Dogri - डोगरी| doi |
 | Malay - Melayu | ms |
+| Filipino | tl |
+
 ## Supported Transliteration Languages
 
 | Language Name        | Language Code

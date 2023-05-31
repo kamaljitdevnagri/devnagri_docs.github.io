@@ -5,3 +5,4 @@
 vuepress
 .DS_Store
 false/
+npm-debug.log
