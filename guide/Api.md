@@ -126,6 +126,76 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json-response
 ---
 ---
 
+### Request (V2)
+
+```curl
+curl --request POST \
+  --url https://app.devnagri.com/api/order/json-response \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "api_key": "recgdgstaDKtVpMIJQ",
+    "order_id": "D15303",
+    "version": "v2"
+}'
+```
+
+### Response
+
+::: tip SUCCESS
+*status code: 200*
+:::
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "data": [
+        {
+            "id": "Please proceed with questionare part or retry face capture.",
+            "hi": "कृपया क्वेश्चन पार्ट के साथ आगे बढ़ें या फ़ेस कैप्चर करने की फिर से कोशिश करें।",
+            "pa": "ਕਿਰਪਾ ਕਰਕੇ ਕ੍ਵੇਸਚਨੇਅਰ ਨਾਲ ਅੱਗੇ ਵਧੋ ਜਾਂ ਫੇਸ ਕੈਪਚਰ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "bn": "অনুগ্রহ করে  কোয়েশ্চেনিয়ার পার্ট সম্পন্ন করে এগিয়ে যান  অথবা ফেস ক্যাপচারটি পুনরায় চেষ্টা করুন।",
+            "ml": "ക്വസ്റ്റിൻനെയർ പാർട്ട് ആയി മുന്നോട്ട് പോകുക അല്ലെങ്കിൽ ഫേസ് ക്യാപ്‌ചർ വീണ്ടും ശ്രമിക്കുക.",
+            "sd": "مهرباني ڪري سوال سان اڳتي وڌو حصو يا منهن جي قبضي کي ٻيهر ڪوشش ڪريو.",
+        },
+        {
+            "id": "Please proceed with face capture or retry PAN capture.",
+            "hi": "कृपया फ़ेस कैप्चर के साथ आगे बढ़ें या PAN कैप्चर करने की फिर से कोशिश करें।",
+            "pa": "ਕਿਰਪਾ ਕਰਕੇ ਫੇਸ ਕੈਪਚਰ ਜਾਂ PAN ਕੈਪਚਰ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "bn": "অনুগ্রহ করে ফেস ক্যাপচারের সাথে এগিয়ে যান বা PAN ক্যাপচারটি পুনরায় চেষ্টা করুন।",
+            "ml": "ദയവായി ഫേസ് ക്യാപ്‌ചർ ഉപയോഗിച്ച് തുടരുക അല്ലെങ്കിൽ PAN ക്യാപ്‌ചർ വീണ്ടും ശ്രമിക്കുക.",
+            "sd": "مهرباني ڪري منهن      سان اڳتي وڌو يا پي اين جي قبضي کي ٻيهر ڪوشش ڪريو.",
+        }
+    ]
+}
+```
+
+### Response (When translation is not completed)
+
+::: tip SUCCESS
+*status code: 200*
+:::
+
+```json
+{
+    "status": "success",
+    "code": 200,
+    "data": [],
+    "message": "Translation not completed."
+}
+```
+
+### Request Parameters
+
+| Key        | Value | Description
+| ------------- |:-------------:|:-------------:|
+| api_key | SECRET_API_KEY_XXXXX | The key will be provided by the Devnagri and can be found at [Usage Details](https://app.devnagri.com/account/usage) |
+| order_id | DEV04200 | Unique Order Code |
+| version | v2 | |
+
+---
+---
+
 ## API JSON Order: Reject
 
 This API is responsible to reject the translation for the given sentences in an ongoing order.
