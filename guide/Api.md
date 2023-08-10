@@ -391,7 +391,7 @@ The request requires input in the form data
 
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
-| input_text | नमस्ते | Input text |
+| input_text | namaste | Input text |
 | src_lang | en |language code. [Ref](LanguageCodes.md). |
 | dest_lang | bn | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
