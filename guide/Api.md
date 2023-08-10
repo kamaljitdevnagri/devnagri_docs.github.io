@@ -378,9 +378,7 @@ curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
 
 ```json
 {
-    "success": true,
-    "at": "2022-06-30 12:20:39.823671 +0000 UTC",
-    "input": "namaste",
+    "code": 200,
     "result": "നാമസ്റ് റ്"
 }
 ```
