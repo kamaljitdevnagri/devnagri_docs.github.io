@@ -364,7 +364,7 @@ This API is responsible for returning transliteration for the input sentence.
 
 ```cURL
 curl --location --request POST 'https://app.devnagri.com/api/transliterate' \
---form 'input_text="नमस्ते"' \
+--form 'input_text="namaste"' \
 --form 'src_lang="en"' \
 --form 'dest_lang="ml"' \
 --form 'key="recgdgstaDKtVpMIJQ"'
