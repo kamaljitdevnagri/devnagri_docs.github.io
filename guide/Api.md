@@ -147,7 +147,7 @@ curl --request POST \
 
 ```json
 {
-    "status": "success",
+   "status": "success",
     "code": 200,
     "data": {
         "hi": [
@@ -158,7 +158,7 @@ curl --request POST \
         ],
         "bn": [
             {
-                "test-123": "ওহে বিশ্ব",
+                "test-123": "হ্যালো ওয়ার্ল্ড",                
                 "test-456": "কেমন আছ?"
             }
         ],
@@ -166,6 +166,12 @@ curl --request POST \
             {
                 "test-123": "હેલો વર્લ્ડ",
                 "test-456": "તમે કેવી રીતે છો?"
+            }
+        ],
+        "en": [
+            {
+                "test-123": "Hello World",
+                "test-456": "How are you?"
             }
         ]
     }
@@ -202,29 +208,28 @@ curl --request POST \
 
 This API is responsible to reject the translation for the given sentences in an ongoing order.
 
-> `POST: https://app.devnagri.com/api/order/json/reject`
-
 ### Request
 
 ```json
-{
-  "api_key": "recgdgstaDKtVpMIJQ",
-  "order_code": "DEV04200",
+curl --location 'https://app.devnagri.com/api/order/json/reject' \
+--header 'Content-Type: application/json' \
+--data '{
+  "api_key": "fhdjsjfjfjdjdl",
+  "order_code": "D18046",
   "data": {
       "hi": [
         "Hello World",
-        "I think that we may safely trust a good deal more than we do.",
-        "There's a world of good you could perform."
+        "How are you?"
       ],
       "bn": [
-        "Hello World",
-        "There's a world of good you could perform.",
-        "While he waited at the train station, Joe realized that the train was late."
+        "Hello World"
       ],
-      "gu": "Hello World",
+      "gu":[
+        "Hello World"
+      ]
   },
   "comment": "Please transliterate. Do not translate."
-}
+}'
 ```
 
 > Note: The comment will apply to these sentences only. Please make sure to choose correct translation.
