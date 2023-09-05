@@ -12,7 +12,7 @@ Devnagri On The Air makes your multilingual journey quick and easy.
 
 User has to provide the login id and password and click on Log In.
 
-![signin](./images/Log_In.png)
+![signin](./images/CaptchaLogin.png)
 
 ## User Dashboard
 
@@ -30,7 +30,7 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## Order Summary
 
-![order_summary](./images/DOTA_Web/OrderSummary.png)
+![order_summary](./images/DOTA_Web/SummaryUpdate.png)
 
 ## Payment
 
@@ -58,9 +58,10 @@ Click on **verify** and then it will take up few minutes for verification.
 ## Select approach
 
 1. Subdomain (hi.example.com)
-2. Live JS (example.com)
+2. Subdirectory (example.com/hi)
+3. Live JS (example.com)
 
-![setup](./images/DOTA_Web/Setup.png)
+![setup](./images/DOTA_Web/ApprochUpdate.png)
 
 ### 1. Subdomain
 
@@ -100,7 +101,31 @@ Step 3.
 
 Your project has been created. Now, you can go to DOTA dashboard by clicking on **Go to my dashboard**.
 
-### 2. Live JS
+### 2. Subdirectory
+
+This approach involves creating a new subdirectory for each language version of your website. For example, if your main website is www.example.com, the Hindi version would be www.example.com/hi.
+
+Step 1.
+
+![subdirectory_step1](./images/DOTA_Web/SubDirectory1.png)
+
+It is recommended to include Apache/Ngnix code snippet to your website server configuration.
+
+![subdirectory_step1](./images/DOTA_Web/SubDirectory2.png)
+
+Once the mapping has been done click on Verify & Next. In order to verify server configuration for subdirectory approach.
+
+Step 2.
+
+![subdirectory_step1](./images/DOTA_Web/SubDirectory3.png)
+
+The final step is to include the JS code, which simplifies the creation or the language button and also adds hreflang tags to your website.
+
+It is recommended that you include the Javascript code snippet immediately before your closing body tag.This will enable the language switcher to appear on your website.
+
+Once its done, you can click on **Finish** and you're done!
+
+### 3. Live JS
 
 Step 1.
 
@@ -135,7 +160,7 @@ User dashboard shows all the details of order placed for a domain.
 9. Page Views
 10. Word Count
 
-![dashboard](./images/DOTA_Web/DotaDashboard.png)
+![dashboard](./images/DOTA_Web/OrderDashboardUpdate.png)
 
 <!-- ## Plan details
 
@@ -146,7 +171,7 @@ ex  Languages,Urls,Plan,Progress,word count,pages view.
 
 ## URLs tab
 
-![wordcount](./images/DOTA_Web/URLs.png)
+![wordcount](./images/DOTA_Web/UrlUpdate.png)
 
 ## Progress  
 
@@ -181,13 +206,19 @@ If system not crawling all the URLs user can click on the click here button and 
 
 User has to update all the URLs in the file and click on the upload button.
 
-![upload_files](./images/DOTA_Web/AddUrlUploadFiles.png)
+![upload_files](./images/DOTA_Web/UploadFilesUpdate.png)
 
 ## Paste URLs
 
 User can use this tab by pasting individually URLs. to crawl.
 
-![paste_urls](./images/DOTA_Web/AddUrlPasteUrl.png)
+![paste_urls](./images/DOTA_Web/PasteUpdate.png)
+
+## Publish URLs
+
+User can add all the URLs in the file and publish it directly.
+
+![publish_urls](./images/DOTA_Web/PublishUrl.png)
 
 ## Words
 
@@ -213,6 +244,10 @@ As user want to translate URL him self by using proof read option.
 
 Shows the date on which the URL was created.
 
+## Published On
+
+Show the date on which the URL was published for the First time.
+
 ## Updated On
 
 Shows the date on which the URL was updated with some new content.
@@ -237,22 +272,34 @@ User can also do modification of the sentences.
 
 ![proofread](./images/Toggledota.png)
 
+### Sync Word Count
+
+User can sync word count for each url.
+
+![proofread](./images/DOTA_Web/SyncWord.png)
+
 ## Published
 
 Only published links are shown as translated.
 We don't translate unpublished URLs.
 
-![ative](./images/a17.png)
+![ative](./images/DOTA_Web/PublishUrlUpdate.png)
 
 ## Search Tab
 
 User can search any URL in the search button.
 
-![search](./images/DotaSearchbutton.png)
+![search](./images/DOTA_Web/Search.png)
 
-## Update URL
+## Change URL Status
 
-![urlupdate](./images/URLupdates.png)
+![urlupdate](./images/DOTA_Web/ChangeStatus.png)
+
+## Publish In All Languages
+
+User can publish url in all languages.
+
+![publishall](./images/DOTA_Web/PublishAll.png)
 
 ## Add more language
 
@@ -260,11 +307,11 @@ User can search any URL in the search button.
 
 ![morelanguage1](./images/Addmorelanguage1.png)
 
-## Delete tab
+## Delete URL
 
 We can delete the URLs by using the delete button.
 
-![RR](./images/a18.png)
+![RR](./images/DOTA_Web/DeleteUrl.png)
 
 ## Change language dropdown filter button
 
