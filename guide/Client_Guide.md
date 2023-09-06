@@ -1,3 +1,17 @@
+# Purpose
+
+This Guide will solve the purpose of user. It provides brief description about :
+
+1. Devnagri
+
+2. User Dashboard
+
+3. Glossary
+
+4. DOTA Web
+
+5. DOTA Mobile App
+
 # Devnagri
 
 Devnagri, an AI powered human translation platform is at the clientele service to help businesses reach the potentially huge client base in indian market. Below given is the useful manual that will help in understanding the functionalities of the system. User shall follow the steps to place the order for translation

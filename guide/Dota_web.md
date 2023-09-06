@@ -303,9 +303,9 @@ User can publish url in all languages.
 
 ## Add more language
 
-![morelanguage](./images/Addmorelanguage.png)
+![morelanguage](./images/DOTA_Web/AddLanguage.png)
 
-![morelanguage1](./images/Addmorelanguage1.png)
+![morelanguage1](./images/DOTA_Web/AddLanguage2.png)
 
 ## Delete URL
 
@@ -313,19 +313,23 @@ We can delete the URLs by using the delete button.
 
 ![RR](./images/DOTA_Web/DeleteUrl.png)
 
+## Change Block/Unblock URL Status
+
+User can change Block/Unblock url status.
+
+![Block](./images/DOTA_Web/ChangeBlock.png)
+
 ## Change language dropdown filter button
 
-User can see all the progress of the translated URLs
+User can see all the progress of the translated URLs in the particular language.
 
-in the particular language.
-
-![PT](./images/Dotalanguageupgradeplan.png)
+![PT](./images/DOTA_Web/LanguageSwitcherUpdate.png)
 
 ## Filter Button
 
 User can use the filter button to search for Active/Inactive, Translation type, URls.
 
-![filter](./images/a19.png)
+![filter](./images/DOTA_Web/FilterUpdate.png)
 
 ## Publish
 
@@ -349,7 +353,7 @@ Recommendation: Please use combination of (right and bottom) or (left and bottom
 Language dropdown on your website
 Recommendation : if you are using custom dropdown, please disable both the options.
 
-![publish_settings](./images/DOTA_Web/PublishSettings.png)
+![publish_settings](./images/DOTA_Web/SettingUpdate.png)
 
 ### Subdomain Redirect
 
@@ -369,23 +373,27 @@ If this is toggled to OFF then any new URL that comes into the system automatica
 
 This settings for if your website has static content then enabling this would speed up the content localisation.
 
+### Show Professional Translations ONLY
+
+Setting this to ON would ensure only manually approved, professional translations would be shown else the content would be in English.
+
 ## SSL Certificate CNAME
 
 Please include the CNAME that has been generated for your localized website.
 
-![SSL_certificate](./images/DOTA_Web/SSLCertificate.png)
+![SSL_certificate](./images/DOTA_Web/SSLCertificateUpdate.png)
 
 ## Subdomain
 
 You can active subdomains for language with the CNAME.
 
-![subdomain](./images/DOTA_Web/Subdomain.png)
+![subdomain](./images/DOTA_Web/SubdomainUpdate.png)
 
 ## Page Views
 
 Here, the user can see no. of visitors for each URL and language.
 
-![pageview](./images/DOTA_Web/PageViews.png)
+![pageview](./images/DOTA_Web/PageViewsUpdate.png)
 
 ### Total Views
 
@@ -401,25 +409,27 @@ User can see all the Premium translation orders on this page.
 
 Upon clicking 'Order for Premium Translation', you will be redirected to the page where you can select the URLs for which you want to create Premium Translation order. Click on 'Next' after selecting the URLs and you will land on 'Create Order' page.
 
-![PT_order_urls](./images/DOTA_Web/PTOrderSelectURLs.png)
+![PT_order_urls](./images/DOTA_Web/PremiumOrder.png)
 
 ## Create Order
 
 This is where the user can create order by filling all the details.
 
-![Ordersucess](./images/Ordersuccess..png)
+![Order](./images/DOTA_Web/PT1.png)
+
+![Ordersucess](./images/DOTA_Web/PT2.png)
 
 ## PT orders will reflect on orders page and PT
 
-The list of PT orders will be shown under orders page as type DOTA and Premium translation page of DOTA dashboard.
+The list of PT orders will be shown under orders page and Premium translation page of DOTA dashboard.
 
-![ordersummary](./images/DotaOrderconfirmedPT.png)
+![ordersummary](./images/DOTA_Web/PT4.png)
 
-![ptorder](./images/orderpdota.png)
+![ptorder](./images/DOTA_Web/PT3.png)
 
 ## Translate Button
 
-![PTtranslate](./images/DotaPTtranslate.png)
+![PTtranslate](./images/DOTA_Web/PT5.png)
 
 ## Translate Page
 
@@ -514,7 +524,15 @@ User can enter any segment number in the search box and click on **Go** button t
 
 ## Autofill MT
 
+Using this option all the untranslated sentence will be filled up with devnagri MT.
+
+![Autofill](./images/DOTA_Web/AutoFill.png)
+
 ## Preview
+
+Using this option user can preview page in translated language once translation is completed.
+
+![Preview](./images/DOTA_Web/Preview.png)
 
 ## Settings
 
@@ -527,7 +545,7 @@ User can enter any segment number in the search box and click on **Go** button t
 Used to purge the cache of URLs. <br>
 Limit - 5 URLs at a time, one per line.
 
-![purge_url](./images/DOTA_Web/PurgeURL.png)
+![purge_url](./images/DOTA_Web/CustomPurge.png)
 
 ### Folder/Prefix Purge
 
@@ -547,6 +565,18 @@ Purge all cached files of domains.
 Purge settings data so that changes done for the localised website get reflected.
 
 ![purge_settings](./images/DOTA_Web/PurgeSettings.png)
+
+### Bypass Cache
+
+This feature is used to Bypass Page Cache.
+
+![bypass_cache](./images/DOTA_Web/Bypass.png)
+
+### Query/Hash Params
+
+Parameters after ? and # can be handled using this feature.
+
+![query](./images/DOTA_Web/Query.png)
 
 ### Merge and Block
 
@@ -601,7 +631,7 @@ Please add comma separated iframe ids, for eg:- iframeid1, iframeid2 etc.
 Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
 Note that with this method, you don't need to edit your sitemap.
 
-![hreflang_tags](./images/DOTA_Web/HreflangTags.png)
+![hreflang_tags](./images/DOTA_Web/HreflangTagsUpdate.png)
 
 
 <!-- ## Rule

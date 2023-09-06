@@ -2,26 +2,21 @@
 
 ## Login
 
-User needs to go to the Devangri home page.
+User needs to go to the Devangri home page and click on Order Translation.
 
-![air](./images/a5.png)
-
-## User needs to click on the order online
-
-1) Click on the Login/Signup.
-
-![dotalogin](./images/a6.png)
+![air](./images/DevnagriHomePage.png)
 
 ## Login page
 
-User has to provide the login id and password and click on login.
+User can Login/Signup from here. User has to provide the login id and password and click on Login.
 
-![signin](./images/Log_In.png)
+![dotalogin](./images/LoginUpdate.png)
 
 ## Dashboard
 
-GO to Mobile Apps on dashboard.
-![mobileapps](./images/mobile_apps.png)
+Go to Mobile Apps on dashboard.
+
+![mobileapps](./images/Client.png)
 
 <!-- ## Go to the Mobile Apps list
 
@@ -29,19 +24,25 @@ GO to Mobile Apps on dashboard.
 
 ## New order
 
-Click on the add application on applications tab.
+Click on Add A Mobile App.
+
 ![ordersdota](./images/add_mobile_app.jpg)
 
-## Add Application and place order
+## Place order
 
-User need to click on the add application and place order.
-![ordersdota](./images/sdk_placeorder.png)
+1. Select the pricing plan.
+2. Select the duration.
+3. Click on Next Button
+
+![ordersdota](./images/SelectPrice.png)
 
 ## Order summary
 
-User needs to fill Project name, Language, Industry,Tone of translation, Instruction and click on place order.
+User needs to fill Project Name, Industry, Source Language, Target Languages and click on place order.
 
-![ordersdota](./images/sdk_ordersummary.png)
+![ordersdota](./images/SummaryApp.png)
+
+![mobile_app](./images/PlaceOrderMobile.png)
 
 ## SDK page
 
