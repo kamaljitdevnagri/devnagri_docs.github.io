@@ -1,12 +1,12 @@
 # DOTA Mobile App
 
-## Login
+## Home Page
 
 User needs to go to the Devangri home page and click on Order Translation.
 
 ![air](./images/DevnagriHomePage.png)
 
-## Login page
+## Login Page
 
 User can Login/Signup from here. User has to provide the login id and password and click on Login.
 
@@ -43,18 +43,9 @@ User needs to fill Project Name, Industry, Source Language, Target Languages and
 ![ordersdota](./images/SummaryApp.png)
 
 ![mobile_app](./images/PlaceOrderMobile.png)
-
-## SDK page
-
-Once the order is completed the page will redirected to SDK page which shows Android SDK-Kotlin/Java and IOS SDK - Swift V2/Objective C.
-
-Note : On SDK page use can use the Test mode tab for testing there application.
-
-![ordersdota](./images/sdk_sdk.jpg)
-
 ## Details page
 
-Details page consists.
+Once the order is completed user click on Done button and the page will redirected to Details page which consist
 
 1. Application name.
 
@@ -72,7 +63,7 @@ Details page consists.
 
 8. MAU's
 
-![ordersdota](./images/sdk_detailspage.png)
+![ordersdota](./images/MobileDashboard.png)
 
 ## APP
 
@@ -84,54 +75,45 @@ Details page consists.
 
 4. User can see the Application names and App key and Bundle ID and phone version on the App.page and status.
 
-5. User can update instructions on App.page.
+5. User can see the Progress,Word count,Translation type,Proof Read.
 
-6. User can see the Progress,Word count,Translation type,Proof Read.
-
-![ordersdota](./images/sdk_app.jpg).
+![ordersdota](./images/AppTab.png).
 
 ## Adding Bundle ID
 
 Click on apps to find API key and add Bundle ID
-![App](./images/API.png)
-![bundle](./images/bundle.png)
+![App](./images/APIUpdate.png)
+
+![bundle](./images/AppKey.png)
 
 Add generated Bundle Id of your application.
 
-![Appkey](./images/ID.png)
+![Appkey](./images/BundleID.png)
 
 Upon Generating the Bundle ID the user need to enter the Bundle Id in the 'Enter Bundle ID' section
 
 ![Bundleid](./images/Name.png)
+
 ![submit](./images/Sumbit.png)
-![addedbundle](./images/addedbundle.png)
+
+![addedbundle](./images/BundleIdAdd.png)
+
+## SDK page
+
+SDK page shows Android SDK-Kotlin/Java and IOS SDK - Swift V2/Objective C.
+
+Note : On SDK page use can use the Test mode tab for testing there application.
+
+![Sdk](./images/SDKPage.png)
 
 ## MAU's (Monthly Active USer)
 
-User can see applicaton mode,Extra views,Filter,Total pages on the MAU's page.
+User can see applicaton Mode,Extra views,Filter,Total pages on the MAU's page.
 
-![ordersdota](./images/sdk_mau.png).
+![ordersdota](./images/Mua.png).
 
 ## Premium translation
 
 User can translate the words to PT by using the PT tab.
 
-![ordersdota](./images/sdk_pt.png)
-
-## Rule
-
- Some words which never translate or translate as given words.
-
-![rule](./images/rule1.png)
-
-## Never translate
-
-If User do not want to translate any word we should create a rule upon updating never translate button.
-
-![acer](./images/acer.png)
-
-## Always translate  
-
-If User wants to translate any particular word he can create a rule for always translate.
-
-![never](./images/never.png)
+![ordersdota](./images/PremiumMobile.png)

@@ -516,6 +516,22 @@ User can filter all the segment by using the options such as Translated, Untrans
 
 ![sort](./images/Sort.png)
 
+## Advance Filter
+
+User can filter all the segment by using advance filter option such as Source Text, Translation Type, Sort By, Source with tags
+
+![Advancesort](./images/DOTA_Web/AdvanceFilter1.png)
+
+![Advancesort](./images/DOTA_Web/AdvanceFilter2.png)
+
+## Find And Replace
+
+User can find segment text and replace using this option.
+
+![find](./images/DOTA_Web/FindReplace1.png)
+
+![replace](./images/DOTA_Web/FindReplace2.png)
+
 ## Jump to Segment
 
 User can enter any segment number in the search box and click on **Go** button to jump to that segment number on the page.
@@ -533,6 +549,14 @@ Using this option all the untranslated sentence will be filled up with devnagri 
 Using this option user can preview page in translated language once translation is completed.
 
 ![Preview](./images/DOTA_Web/Preview.png)
+
+## Stats
+
+User can check Translation Statistics using this option
+
+![StatsOption](./images/DOTA_Web/Stats1.png)
+
+![Stats](./images/DOTA_Web/Stats2.png)
 
 ## Settings
 
