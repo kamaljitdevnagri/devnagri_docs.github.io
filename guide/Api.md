@@ -18,6 +18,7 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
         "bn",
         "gu"
     ],
+     "segmentation": true,
         "data": [
         {
             "test-123": "Hello World",
@@ -60,6 +61,7 @@ curl --location --request POST 'https://app.devnagri.com/api/order/json' \
 | industry | sports | Type of industry/domain the order belongs to. Use "**Industry Name**" from [here.](Industries.md) |
 | source_language | en | Language of the order which needs to be translated **from**. This will be a single value. [Ref.](LanguageCodes.md) |
 | target_language | [hi, bn] | Language of the order which needs to be translated **to**. This will be inside an array, can contain more than one language. [Ref.](LanguageCodes.md) |
+| segmentation | true | It's an optional field if user feel their sentences are too long, they can opt for this  |
 | data | Your JSON data | A valid JSON object |
 
 ---
