@@ -48,6 +48,11 @@
 | ------------- |:-------------:|
 | Arabic (اَلْعَرَبِيَّةُ) | ar |
 | Bengali (বাংলা) | bn |
+| Assamese (অসমীয়া) | as || Hebrew (עִברִית) | he |
+| Kashmiri (کشمیری) | ks |
+| Nepali (नेपाली) | ne |
+| Oriya (ଓଡିଆ) | or |
+| Sanskrit (संस्कृत) | sa |
 | Gujarati (ગુજરાતી) | gu |
 | Hindi (हिन्दी) | hi |
 | Kannada (ಕನ್ನಡ) | kn |
